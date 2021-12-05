@@ -1,0 +1,1042 @@
+2021-12-05 13:48:19,079 florians-mbp ForkedBooter[49947] DEBUG [io.net.uti.int.log.InternalLoggerFactory] (main) Using SLF4J as the default logging framework
+2021-12-05 13:48:19,080 florians-mbp ForkedBooter[49947] DEBUG [io.net.uti.int.PlatformDependent0] (main) -Dio.netty.noUnsafe: false
+2021-12-05 13:48:19,080 florians-mbp ForkedBooter[49947] DEBUG [io.net.uti.int.PlatformDependent0] (main) Java version: 12
+2021-12-05 13:48:19,081 florians-mbp ForkedBooter[49947] DEBUG [io.net.uti.int.PlatformDependent0] (main) sun.misc.Unsafe.theUnsafe: available
+2021-12-05 13:48:19,081 florians-mbp ForkedBooter[49947] DEBUG [io.net.uti.int.PlatformDependent0] (main) sun.misc.Unsafe.copyMemory: available
+2021-12-05 13:48:19,081 florians-mbp ForkedBooter[49947] DEBUG [io.net.uti.int.PlatformDependent0] (main) java.nio.Buffer.address: available
+2021-12-05 13:48:19,081 florians-mbp ForkedBooter[49947] DEBUG [io.net.uti.int.PlatformDependent0] (main) direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2021-12-05 13:48:19,082 florians-mbp ForkedBooter[49947] DEBUG [io.net.uti.int.PlatformDependent0] (main) java.nio.Bits.unaligned: available, true
+2021-12-05 13:48:19,082 florians-mbp ForkedBooter[49947] DEBUG [io.net.uti.int.PlatformDependent0] (main) jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @6b2ef50e
+2021-12-05 13:48:19,082 florians-mbp ForkedBooter[49947] DEBUG [io.net.uti.int.PlatformDependent0] (main) java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2021-12-05 13:48:19,082 florians-mbp ForkedBooter[49947] DEBUG [io.net.uti.int.PlatformDependent] (main) sun.misc.Unsafe: available
+2021-12-05 13:48:19,083 florians-mbp ForkedBooter[49947] DEBUG [io.net.uti.int.PlatformDependent] (main) maxDirectMemory: 4294967296 bytes (maybe)
+2021-12-05 13:48:19,083 florians-mbp ForkedBooter[49947] DEBUG [io.net.uti.int.PlatformDependent] (main) -Dio.netty.tmpdir: /var/folders/w8/qq8v5_l52jd1swx8wqj9k6qc0000gn/T (java.io.tmpdir)
+2021-12-05 13:48:19,083 florians-mbp ForkedBooter[49947] DEBUG [io.net.uti.int.PlatformDependent] (main) -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-12-05 13:48:19,083 florians-mbp ForkedBooter[49947] DEBUG [io.net.uti.int.PlatformDependent] (main) Platform: MacOS
+2021-12-05 13:48:19,083 florians-mbp ForkedBooter[49947] DEBUG [io.net.uti.int.PlatformDependent] (main) -Dio.netty.maxDirectMemory: -1 bytes
+2021-12-05 13:48:19,083 florians-mbp ForkedBooter[49947] DEBUG [io.net.uti.int.PlatformDependent] (main) -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-12-05 13:48:19,084 florians-mbp ForkedBooter[49947] DEBUG [io.net.uti.int.CleanerJava9] (main) java.nio.ByteBuffer.cleaner(): available
+2021-12-05 13:48:19,084 florians-mbp ForkedBooter[49947] DEBUG [io.net.uti.int.PlatformDependent] (main) -Dio.netty.noPreferDirect: false
+2021-12-05 13:48:21,728 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:32812
+2021-12-05 13:48:21,735 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:32812
+2021-12-05 13:48:21,750 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:48:21,751 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:48:21,751 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.cli.pro.RequestTargetAuthentication] (main) Target auth state: UNCHALLENGED
+2021-12-05 13:48:21,751 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:48:21,751 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:48:21,752 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:48:21,752 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1[\r][\n]"
+2021-12-05 13:48:21,753 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:48:21,753 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+2021-12-05 13:48:21,753 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Content-Length: 96[\r][\n]"
+2021-12-05 13:48:21,753 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:32812[\r][\n]"
+2021-12-05 13:48:21,753 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:48:21,753 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:48:21,753 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:48:21,753 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:48:21,753 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:48:21,753 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:48:21,753 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+2021-12-05 13:48:21,753 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Content-Length: 96
+2021-12-05 13:48:21,753 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:32812
+2021-12-05 13:48:21,753 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:48:21,753 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:48:21,753 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:48:21,754 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "grant_type=password&username=admin&password=admin&client_id=backend-service&client_secret=secret"
+2021-12-05 13:48:21,788 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2021-12-05 13:48:21,789 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Cache-Control: no-store[\r][\n]"
+2021-12-05 13:48:21,790 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2021-12-05 13:48:21,790 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Pragma: no-cache[\r][\n]"
+2021-12-05 13:48:21,790 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2021-12-05 13:48:21,790 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Referrer-Policy: no-referrer[\r][\n]"
+2021-12-05 13:48:21,790 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Date: Sun, 05 Dec 2021 12:48:21 GMT[\r][\n]"
+2021-12-05 13:48:21,790 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Connection: keep-alive[\r][\n]"
+2021-12-05 13:48:21,790 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2021-12-05 13:48:21,790 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "X-Content-Type-Options: nosniff[\r][\n]"
+2021-12-05 13:48:21,790 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Content-Type: application/json[\r][\n]"
+2021-12-05 13:48:21,790 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Content-Length: 72[\r][\n]"
+2021-12-05 13:48:21,790 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:48:21,791 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 401 Unauthorized
+2021-12-05 13:48:21,791 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 401 Unauthorized
+2021-12-05 13:48:21,791 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Cache-Control: no-store
+2021-12-05 13:48:21,791 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << X-XSS-Protection: 1; mode=block
+2021-12-05 13:48:21,791 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Pragma: no-cache
+2021-12-05 13:48:21,791 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << X-Frame-Options: SAMEORIGIN
+2021-12-05 13:48:21,791 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Referrer-Policy: no-referrer
+2021-12-05 13:48:21,791 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Date: Sun, 05 Dec 2021 12:48:21 GMT
+2021-12-05 13:48:21,791 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Connection: keep-alive
+2021-12-05 13:48:21,791 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2021-12-05 13:48:21,791 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << X-Content-Type-Options: nosniff
+2021-12-05 13:48:21,791 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Content-Type: application/json
+2021-12-05 13:48:21,791 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Content-Length: 72
+2021-12-05 13:48:21,794 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:48:21,794 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Authentication required
+2021-12-05 13:48:21,795 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) localhost:32812 requested authentication
+2021-12-05 13:48:21,795 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Response contains no authentication challenges
+2021-12-05 13:48:21,809 florians-mbp ForkedBooter[49947] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsing response as: application/json
+2021-12-05 13:48:21,810 florians-mbp ForkedBooter[49947] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-12-05 13:48:21,854 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "{"error":"invalid_grant","error_description":"Invalid user credentials"}"
+2021-12-05 13:48:21,854 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1e466d
+2021-12-05 13:48:21,854 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Connection can be kept alive indefinitely
+2021-12-05 13:48:22,128 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:32812
+2021-12-05 13:48:22,129 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:32812
+2021-12-05 13:48:22,129 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:48:22,129 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:48:22,130 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.cli.pro.RequestTargetAuthentication] (main) Target auth state: UNCHALLENGED
+2021-12-05 13:48:22,130 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:48:22,130 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:48:22,130 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:48:22,130 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1[\r][\n]"
+2021-12-05 13:48:22,130 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:48:22,130 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+2021-12-05 13:48:22,130 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Content-Length: 96[\r][\n]"
+2021-12-05 13:48:22,130 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:32812[\r][\n]"
+2021-12-05 13:48:22,131 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:48:22,131 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:48:22,131 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:48:22,131 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:48:22,131 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:48:22,131 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:48:22,131 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+2021-12-05 13:48:22,131 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Content-Length: 96
+2021-12-05 13:48:22,131 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:32812
+2021-12-05 13:48:22,131 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:48:22,131 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:48:22,131 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:48:22,131 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "grant_type=password&username=alice&password=alice&client_id=backend-service&client_secret=secret"
+2021-12-05 13:48:22,262 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-05 13:48:22,262 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Cache-Control: no-store[\r][\n]"
+2021-12-05 13:48:22,262 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Set-Cookie: KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly[\r][\n]"
+2021-12-05 13:48:22,262 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly[\r][\n]"
+2021-12-05 13:48:22,262 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2021-12-05 13:48:22,262 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Pragma: no-cache[\r][\n]"
+2021-12-05 13:48:22,262 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2021-12-05 13:48:22,263 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Referrer-Policy: no-referrer[\r][\n]"
+2021-12-05 13:48:22,263 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Date: Sun, 05 Dec 2021 12:48:22 GMT[\r][\n]"
+2021-12-05 13:48:22,263 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Connection: keep-alive[\r][\n]"
+2021-12-05 13:48:22,263 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2021-12-05 13:48:22,263 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "X-Content-Type-Options: nosniff[\r][\n]"
+2021-12-05 13:48:22,263 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Content-Type: application/json[\r][\n]"
+2021-12-05 13:48:22,263 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Content-Length: 1858[\r][\n]"
+2021-12-05 13:48:22,263 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:48:22,263 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 200 OK
+2021-12-05 13:48:22,263 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 200 OK
+2021-12-05 13:48:22,263 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Cache-Control: no-store
+2021-12-05 13:48:22,263 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Set-Cookie: KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly
+2021-12-05 13:48:22,263 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly
+2021-12-05 13:48:22,263 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << X-XSS-Protection: 1; mode=block
+2021-12-05 13:48:22,263 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Pragma: no-cache
+2021-12-05 13:48:22,263 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << X-Frame-Options: SAMEORIGIN
+2021-12-05 13:48:22,263 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Referrer-Policy: no-referrer
+2021-12-05 13:48:22,263 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Date: Sun, 05 Dec 2021 12:48:22 GMT
+2021-12-05 13:48:22,264 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Connection: keep-alive
+2021-12-05 13:48:22,264 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2021-12-05 13:48:22,264 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << X-Content-Type-Options: nosniff
+2021-12-05 13:48:22,264 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Content-Type: application/json
+2021-12-05 13:48:22,264 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Content-Length: 1858
+2021-12-05 13:48:22,264 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:48:22,264 florians-mbp ForkedBooter[49947] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsing response as: application/json
+2021-12-05 13:48:22,264 florians-mbp ForkedBooter[49947] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-12-05 13:48:22,292 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHbXF3dDNnMHkwMEVaOUNBNnR4UmlQS2lyNmVfMjIxNHlhSExpdGJPM3Z3In0.eyJleHAiOjE2Mzg3MDg4MDIsImlhdCI6MTYzODcwODUwMiwianRpIjoiMjgwNjA5ZjUtOGMwNC00ZjM2LWE3MDItYTQ0YmQxMGM5YWI3IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgxMi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiMmExMTA3ODUtNTVlZC00Y2M0LWFlYTAtOGIwODJjNTc3YzdhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6IjJjNDBhMjcwLTBkNDUtNGMwZi1iY2M1LWRkMjNhMGRlOGFmNSIsImFjciI6IjEiLCJzY29wZSI6Im1pY3JvcHJvZmlsZS1qd3QiLCJzaWQiOiIyYzQwYTI3MC0wZDQ1LTRjMGYtYmNjNS1kZDIzYTBkZThhZjUiLCJ1cG4iOiJhbGljZSIsImdyb3VwcyI6WyJhZG1pbiIsInVzZXIiXX0.L5kxM4y88XAd3o_UxMXHiWOJViERVTAq3gZHp5WDym5RbaSFCIKZ3-rHceQFsdE3wuIRih2MOrs9xA_RyzzfcdHE2x5svR-BRRFBwpU_M2FVCh0_e8WGAyPpx6lyVYRBdfOYa43CIJO2eAk85xEGUXXfmroId93vG45XdnZR16cTVOqZbuZSEOeeah4pQS95QmjJpeoX9lHfR6XRPNHC4B1HGH-NfbrCSAZRC1_OYiLhXrOjiw4Fi7k675dUd5IK8x9QEAUJmlswUJofKwopEdOmt9nl30suO6tyApcifLUwsPMPkfbHPDKyKEaLyrYdWXkKq3uNjc_DwoENDWld_Q","expires_in":300,"refresh_expires_in":1800,"refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxYjJiNjAzMS1kOGY1LTQ0N2EtYmMzZi1iY2NmNTcwN2Y3MzQifQ.eyJleHAiOjE2Mzg3MTAzMDIsImlhdCI6MTYzODcwODUwMiwianRpIjoiYTY3MmM3YzgtNTc1Zi00NGQxLThiZTktYTgwNDY5YjY2MWI0IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgxMi9hdXRoL3JlYWxtcy9xdWFya3VzIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDozMjgxMi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiMmExMTA3ODUtNTVlZC00Y2M0LWFlYTAtOGIwODJjNTc3YzdhIiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImJhY2tlbmQtc2VydmljZSIsInNlc3Npb25fc3RhdGUiOiIyYzQwYTI3MC0wZDQ1LTRjMGYtYmNjNS1kZDIzYTBkZThhZjUiLCJzY29wZSI6Im1pY3JvcHJvZmlsZS1qd3QiLCJzaWQiOiIyYzQwYTI3MC0wZDQ1LTRjMGYtYmNjNS1kZDIzYTBkZThhZjUifQ.p8Ls9gTJL2JiEPsnF2L3WQQpzgZYNH-npMShLD9HSw0","token_type":"Bearer","not-before-policy":0,"session_state":"2c40a270-0d45-4c0f-bcc5-dd23a0de8af5","scope":"microprofile-jwt"}"
+2021-12-05 13:48:22,292 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4889fbba
+2021-12-05 13:48:22,292 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Connection can be kept alive indefinitely
+2021-12-05 13:48:22,311 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:8081
+2021-12-05 13:48:22,312 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:8081
+2021-12-05 13:48:22,312 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:48:22,312 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:48:22,312 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:48:22,312 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:48:22,312 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: GET /api/users/me HTTP/1.1
+2021-12-05 13:48:22,313 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "GET /api/users/me HTTP/1.1[\r][\n]"
+2021-12-05 13:48:22,313 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHbXF3dDNnMHkwMEVaOUNBNnR4UmlQS2lyNmVfMjIxNHlhSExpdGJPM3Z3In0.eyJleHAiOjE2Mzg3MDg4MDIsImlhdCI6MTYzODcwODUwMiwianRpIjoiMjgwNjA5ZjUtOGMwNC00ZjM2LWE3MDItYTQ0YmQxMGM5YWI3IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgxMi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiMmExMTA3ODUtNTVlZC00Y2M0LWFlYTAtOGIwODJjNTc3YzdhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6IjJjNDBhMjcwLTBkNDUtNGMwZi1iY2M1LWRkMjNhMGRlOGFmNSIsImFjciI6IjEiLCJzY29wZSI6Im1pY3JvcHJvZmlsZS1qd3QiLCJzaWQiOiIyYzQwYTI3MC0wZDQ1LTRjMGYtYmNjNS1kZDIzYTBkZThhZjUiLCJ1cG4iOiJhbGljZSIsImdyb3VwcyI6WyJhZG1pbiIsInVzZXIiXX0.L5kxM4y88XAd3o_UxMXHiWOJViERVTAq3gZHp5WDym5RbaSFCIKZ3-rHceQFsdE3wuIRih2MOrs9xA_RyzzfcdHE2x5svR-BRRFBwpU_M2FVCh0_e8WGAyPpx6lyVYRBdfOYa43CIJO2eAk85xEGUXXfmroId93vG45XdnZR16cTVOqZbuZSEOeeah4pQS95QmjJpeoX9lHfR6XRPNHC4B1HGH-NfbrCSAZRC1_OYiLhXrOjiw4Fi7k675dUd5IK8x9QEAUJmlswUJofKwopEdOmt9nl30suO6tyApcifLUwsPMPkfbHPDKyKEaLyrYdWXkKq3uNjc_DwoENDWld_Q[\r][\n]"
+2021-12-05 13:48:22,313 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:48:22,313 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:8081[\r][\n]"
+2021-12-05 13:48:22,313 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:48:22,313 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:48:22,313 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:48:22,313 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:48:22,313 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> GET /api/users/me HTTP/1.1
+2021-12-05 13:48:22,313 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHbXF3dDNnMHkwMEVaOUNBNnR4UmlQS2lyNmVfMjIxNHlhSExpdGJPM3Z3In0.eyJleHAiOjE2Mzg3MDg4MDIsImlhdCI6MTYzODcwODUwMiwianRpIjoiMjgwNjA5ZjUtOGMwNC00ZjM2LWE3MDItYTQ0YmQxMGM5YWI3IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgxMi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiMmExMTA3ODUtNTVlZC00Y2M0LWFlYTAtOGIwODJjNTc3YzdhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6IjJjNDBhMjcwLTBkNDUtNGMwZi1iY2M1LWRkMjNhMGRlOGFmNSIsImFjciI6IjEiLCJzY29wZSI6Im1pY3JvcHJvZmlsZS1qd3QiLCJzaWQiOiIyYzQwYTI3MC0wZDQ1LTRjMGYtYmNjNS1kZDIzYTBkZThhZjUiLCJ1cG4iOiJhbGljZSIsImdyb3VwcyI6WyJhZG1pbiIsInVzZXIiXX0.L5kxM4y88XAd3o_UxMXHiWOJViERVTAq3gZHp5WDym5RbaSFCIKZ3-rHceQFsdE3wuIRih2MOrs9xA_RyzzfcdHE2x5svR-BRRFBwpU_M2FVCh0_e8WGAyPpx6lyVYRBdfOYa43CIJO2eAk85xEGUXXfmroId93vG45XdnZR16cTVOqZbuZSEOeeah4pQS95QmjJpeoX9lHfR6XRPNHC4B1HGH-NfbrCSAZRC1_OYiLhXrOjiw4Fi7k675dUd5IK8x9QEAUJmlswUJofKwopEdOmt9nl30suO6tyApcifLUwsPMPkfbHPDKyKEaLyrYdWXkKq3uNjc_DwoENDWld_Q
+2021-12-05 13:48:22,313 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:48:22,313 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:8081
+2021-12-05 13:48:22,313 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:48:22,313 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:48:22,314 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:48:22,554 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-05 13:48:22,555 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Cache-Control: no-cache[\r][\n]"
+2021-12-05 13:48:22,555 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Content-Type: application/json[\r][\n]"
+2021-12-05 13:48:22,555 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "content-length: 20[\r][\n]"
+2021-12-05 13:48:22,555 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:48:22,555 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 200 OK
+2021-12-05 13:48:22,555 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 200 OK
+2021-12-05 13:48:22,555 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Cache-Control: no-cache
+2021-12-05 13:48:22,555 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Content-Type: application/json
+2021-12-05 13:48:22,555 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << content-length: 20
+2021-12-05 13:48:22,555 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:48:22,555 florians-mbp ForkedBooter[49947] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsing response as: application/json
+2021-12-05 13:48:22,555 florians-mbp ForkedBooter[49947] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-12-05 13:48:22,596 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:32812
+2021-12-05 13:48:22,596 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:32812
+2021-12-05 13:48:22,597 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:48:22,597 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:48:22,597 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.cli.pro.RequestTargetAuthentication] (main) Target auth state: UNCHALLENGED
+2021-12-05 13:48:22,597 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:48:22,597 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:48:22,597 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:48:22,597 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1[\r][\n]"
+2021-12-05 13:48:22,597 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:48:22,597 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+2021-12-05 13:48:22,598 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Content-Length: 96[\r][\n]"
+2021-12-05 13:48:22,598 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:32812[\r][\n]"
+2021-12-05 13:48:22,598 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:48:22,598 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:48:22,598 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:48:22,598 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:48:22,598 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:48:22,598 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:48:22,598 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+2021-12-05 13:48:22,598 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Content-Length: 96
+2021-12-05 13:48:22,598 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:32812
+2021-12-05 13:48:22,598 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:48:22,599 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:48:22,599 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:48:22,599 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  >> "grant_type=password&username=admin&password=admin&client_id=backend-service&client_secret=secret"
+2021-12-05 13:48:22,617 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2021-12-05 13:48:22,618 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Cache-Control: no-store[\r][\n]"
+2021-12-05 13:48:22,618 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2021-12-05 13:48:22,618 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Pragma: no-cache[\r][\n]"
+2021-12-05 13:48:22,618 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2021-12-05 13:48:22,618 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Referrer-Policy: no-referrer[\r][\n]"
+2021-12-05 13:48:22,618 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Date: Sun, 05 Dec 2021 12:48:22 GMT[\r][\n]"
+2021-12-05 13:48:22,618 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Connection: keep-alive[\r][\n]"
+2021-12-05 13:48:22,618 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2021-12-05 13:48:22,619 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "X-Content-Type-Options: nosniff[\r][\n]"
+2021-12-05 13:48:22,619 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Content-Type: application/json[\r][\n]"
+2021-12-05 13:48:22,619 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "Content-Length: 72[\r][\n]"
+2021-12-05 13:48:22,619 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:48:22,619 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 401 Unauthorized
+2021-12-05 13:48:22,619 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 401 Unauthorized
+2021-12-05 13:48:22,619 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Cache-Control: no-store
+2021-12-05 13:48:22,619 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << X-XSS-Protection: 1; mode=block
+2021-12-05 13:48:22,620 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Pragma: no-cache
+2021-12-05 13:48:22,620 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << X-Frame-Options: SAMEORIGIN
+2021-12-05 13:48:22,620 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Referrer-Policy: no-referrer
+2021-12-05 13:48:22,620 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Date: Sun, 05 Dec 2021 12:48:22 GMT
+2021-12-05 13:48:22,620 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Connection: keep-alive
+2021-12-05 13:48:22,621 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2021-12-05 13:48:22,622 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << X-Content-Type-Options: nosniff
+2021-12-05 13:48:22,622 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Content-Type: application/json
+2021-12-05 13:48:22,622 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.headers] (main) << Content-Length: 72
+2021-12-05 13:48:22,622 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:48:22,622 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Authentication required
+2021-12-05 13:48:22,623 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) localhost:32812 requested authentication
+2021-12-05 13:48:22,623 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Response contains no authentication challenges
+2021-12-05 13:48:22,623 florians-mbp ForkedBooter[49947] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsing response as: application/json
+2021-12-05 13:48:22,623 florians-mbp ForkedBooter[49947] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-12-05 13:48:22,624 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.wire] (main)  << "{"error":"invalid_grant","error_description":"Invalid user credentials"}"
+2021-12-05 13:48:22,624 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@294a3f2a
+2021-12-05 13:48:22,624 florians-mbp ForkedBooter[49947] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Connection can be kept alive indefinitely
+2021-12-05 13:53:45,949 florians-mbp ForkedBooter[50158] DEBUG [io.net.uti.int.log.InternalLoggerFactory] (main) Using SLF4J as the default logging framework
+2021-12-05 13:53:45,950 florians-mbp ForkedBooter[50158] DEBUG [io.net.uti.int.PlatformDependent0] (main) -Dio.netty.noUnsafe: false
+2021-12-05 13:53:45,950 florians-mbp ForkedBooter[50158] DEBUG [io.net.uti.int.PlatformDependent0] (main) Java version: 12
+2021-12-05 13:53:45,951 florians-mbp ForkedBooter[50158] DEBUG [io.net.uti.int.PlatformDependent0] (main) sun.misc.Unsafe.theUnsafe: available
+2021-12-05 13:53:45,951 florians-mbp ForkedBooter[50158] DEBUG [io.net.uti.int.PlatformDependent0] (main) sun.misc.Unsafe.copyMemory: available
+2021-12-05 13:53:45,951 florians-mbp ForkedBooter[50158] DEBUG [io.net.uti.int.PlatformDependent0] (main) java.nio.Buffer.address: available
+2021-12-05 13:53:45,951 florians-mbp ForkedBooter[50158] DEBUG [io.net.uti.int.PlatformDependent0] (main) direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2021-12-05 13:53:45,952 florians-mbp ForkedBooter[50158] DEBUG [io.net.uti.int.PlatformDependent0] (main) java.nio.Bits.unaligned: available, true
+2021-12-05 13:53:45,952 florians-mbp ForkedBooter[50158] DEBUG [io.net.uti.int.PlatformDependent0] (main) jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @701bc94e
+2021-12-05 13:53:45,952 florians-mbp ForkedBooter[50158] DEBUG [io.net.uti.int.PlatformDependent0] (main) java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2021-12-05 13:53:45,952 florians-mbp ForkedBooter[50158] DEBUG [io.net.uti.int.PlatformDependent] (main) sun.misc.Unsafe: available
+2021-12-05 13:53:45,952 florians-mbp ForkedBooter[50158] DEBUG [io.net.uti.int.PlatformDependent] (main) maxDirectMemory: 4294967296 bytes (maybe)
+2021-12-05 13:53:45,953 florians-mbp ForkedBooter[50158] DEBUG [io.net.uti.int.PlatformDependent] (main) -Dio.netty.tmpdir: /var/folders/w8/qq8v5_l52jd1swx8wqj9k6qc0000gn/T (java.io.tmpdir)
+2021-12-05 13:53:45,953 florians-mbp ForkedBooter[50158] DEBUG [io.net.uti.int.PlatformDependent] (main) -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-12-05 13:53:45,953 florians-mbp ForkedBooter[50158] DEBUG [io.net.uti.int.PlatformDependent] (main) Platform: MacOS
+2021-12-05 13:53:45,953 florians-mbp ForkedBooter[50158] DEBUG [io.net.uti.int.PlatformDependent] (main) -Dio.netty.maxDirectMemory: -1 bytes
+2021-12-05 13:53:45,953 florians-mbp ForkedBooter[50158] DEBUG [io.net.uti.int.PlatformDependent] (main) -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-12-05 13:53:45,954 florians-mbp ForkedBooter[50158] DEBUG [io.net.uti.int.CleanerJava9] (main) java.nio.ByteBuffer.cleaner(): available
+2021-12-05 13:53:45,954 florians-mbp ForkedBooter[50158] DEBUG [io.net.uti.int.PlatformDependent] (main) -Dio.netty.noPreferDirect: false
+2021-12-05 13:53:49,668 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:32820
+2021-12-05 13:53:49,673 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:32820
+2021-12-05 13:53:49,685 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:53:49,686 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:53:49,686 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestTargetAuthentication] (main) Target auth state: UNCHALLENGED
+2021-12-05 13:53:49,687 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:53:49,687 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:53:49,687 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:53:49,687 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1[\r][\n]"
+2021-12-05 13:53:49,688 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:53:49,688 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+2021-12-05 13:53:49,688 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Content-Length: 96[\r][\n]"
+2021-12-05 13:53:49,688 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:32820[\r][\n]"
+2021-12-05 13:53:49,688 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:53:49,688 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:53:49,688 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:53:49,688 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:53:49,688 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:53:49,688 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:53:49,688 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+2021-12-05 13:53:49,688 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Content-Length: 96
+2021-12-05 13:53:49,688 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:32820
+2021-12-05 13:53:49,688 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:53:49,688 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:53:49,688 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:53:49,688 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "grant_type=password&username=admin&password=admin&client_id=backend-service&client_secret=secret"
+2021-12-05 13:53:50,333 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-05 13:53:50,335 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Cache-Control: no-store[\r][\n]"
+2021-12-05 13:53:50,335 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Set-Cookie: KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly[\r][\n]"
+2021-12-05 13:53:50,335 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly[\r][\n]"
+2021-12-05 13:53:50,335 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2021-12-05 13:53:50,335 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Pragma: no-cache[\r][\n]"
+2021-12-05 13:53:50,335 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2021-12-05 13:53:50,335 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Referrer-Policy: no-referrer[\r][\n]"
+2021-12-05 13:53:50,335 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Date: Sun, 05 Dec 2021 12:53:50 GMT[\r][\n]"
+2021-12-05 13:53:50,335 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Connection: keep-alive[\r][\n]"
+2021-12-05 13:53:50,335 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2021-12-05 13:53:50,335 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "X-Content-Type-Options: nosniff[\r][\n]"
+2021-12-05 13:53:50,335 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Content-Type: application/json[\r][\n]"
+2021-12-05 13:53:50,335 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Content-Length: 1919[\r][\n]"
+2021-12-05 13:53:50,335 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:53:50,336 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 200 OK
+2021-12-05 13:53:50,336 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 200 OK
+2021-12-05 13:53:50,336 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Cache-Control: no-store
+2021-12-05 13:53:50,336 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Set-Cookie: KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly
+2021-12-05 13:53:50,336 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly
+2021-12-05 13:53:50,336 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << X-XSS-Protection: 1; mode=block
+2021-12-05 13:53:50,336 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Pragma: no-cache
+2021-12-05 13:53:50,336 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << X-Frame-Options: SAMEORIGIN
+2021-12-05 13:53:50,336 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Referrer-Policy: no-referrer
+2021-12-05 13:53:50,336 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Date: Sun, 05 Dec 2021 12:53:50 GMT
+2021-12-05 13:53:50,336 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Connection: keep-alive
+2021-12-05 13:53:50,336 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2021-12-05 13:53:50,336 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << X-Content-Type-Options: nosniff
+2021-12-05 13:53:50,336 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Content-Type: application/json
+2021-12-05 13:53:50,336 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Content-Length: 1919
+2021-12-05 13:53:50,339 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:53:50,357 florians-mbp ForkedBooter[50158] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsing response as: application/json
+2021-12-05 13:53:50,357 florians-mbp ForkedBooter[50158] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-12-05 13:53:50,447 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkxMzAsImlhdCI6MTYzODcwODgzMCwianRpIjoiMTVkZGQ5MTUtNTA0My00ZTlkLWFhNDktM2U3NTg4Mjk5MzdlIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiYWYxMzRjYWItZjQxYy00Njc1LWIxNDEtMjA1Zjk3NWRiNjc5IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6IjYxNzMzMTQzLTkzNDItNDQ4NS05NWYzLTY0NWQzMzg4Y2VlZSIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiYWRtaW4iLCJ1c2VyIl19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiI2MTczMzE0My05MzQyLTQ0ODUtOTVmMy02NDVkMzM4OGNlZWUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIn0.mBEzt6-BD1lXlcOP8U7y05i2bF8OiPFM4LjNf_oK93bfLnRh-mS1Q8E0aTF8lNuDYyqsUvK2yMDLD88qtg7TNxmwaQMM5gbZavnpBJPd4aSjBsBwRS53arcbHcfQ2vTgFBUK5Z1zhmeFTR9i9V1hiB8t_X2EIFio3KS6zOFZWDe_7MCGx_waDmfWHWXt3eFeU9wZ8qjm5SGSoZv7RArzCJJq5URiUegCIIEIwCQny4Bna1p3wzzNpoGgaRerzwhWHqeqwTPw4ck9cVs2AuK03o2vqnFD4r1ab0tK-vf53h7qDpC5q9SbAT2TcZpecixIVjz_JrgxN5RALJ8QI2lF_g","expires_in":300,"refresh_expires_in":1800,"refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NmFmZDAwZS04NWNmLTRkMzUtYjE4ZS0wNjFkMzgxM2Q4YjIifQ.eyJleHAiOjE2Mzg3MTA2MzAsImlhdCI6MTYzODcwODgzMCwianRpIjoiMjYwOTQ0NzgtYjM5ZC00YTE0LWFiMjMtYTViZTAzZjU4M2Q2IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiYWYxMzRjYWItZjQxYy00Njc1LWIxNDEtMjA1Zjk3NWRiNjc5IiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImJhY2tlbmQtc2VydmljZSIsInNlc3Npb25fc3RhdGUiOiI2MTczMzE0My05MzQyLTQ0ODUtOTVmMy02NDVkMzM4OGNlZWUiLCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiI2MTczMzE0My05MzQyLTQ0ODUtOTVmMy02NDVkMzM4OGNlZWUifQ.3RFnZEHx9kcSq5F5IENiuCK6UxEDrpWjRNvGSnzcPOc","token_type":"Bearer","not-before-policy":0,"session_state":"61733143-9342-4485-95f3-645d3388ceee","scope":"email profile"}"
+2021-12-05 13:53:50,448 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1753475d
+2021-12-05 13:53:50,448 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Connection can be kept alive indefinitely
+2021-12-05 13:53:50,719 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:8081
+2021-12-05 13:53:50,720 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:8081
+2021-12-05 13:53:50,720 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:53:50,720 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:53:50,720 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:53:50,720 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:53:50,720 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: GET /api/admin HTTP/1.1
+2021-12-05 13:53:50,721 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "GET /api/admin HTTP/1.1[\r][\n]"
+2021-12-05 13:53:50,721 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkxMzAsImlhdCI6MTYzODcwODgzMCwianRpIjoiMTVkZGQ5MTUtNTA0My00ZTlkLWFhNDktM2U3NTg4Mjk5MzdlIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiYWYxMzRjYWItZjQxYy00Njc1LWIxNDEtMjA1Zjk3NWRiNjc5IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6IjYxNzMzMTQzLTkzNDItNDQ4NS05NWYzLTY0NWQzMzg4Y2VlZSIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiYWRtaW4iLCJ1c2VyIl19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiI2MTczMzE0My05MzQyLTQ0ODUtOTVmMy02NDVkMzM4OGNlZWUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIn0.mBEzt6-BD1lXlcOP8U7y05i2bF8OiPFM4LjNf_oK93bfLnRh-mS1Q8E0aTF8lNuDYyqsUvK2yMDLD88qtg7TNxmwaQMM5gbZavnpBJPd4aSjBsBwRS53arcbHcfQ2vTgFBUK5Z1zhmeFTR9i9V1hiB8t_X2EIFio3KS6zOFZWDe_7MCGx_waDmfWHWXt3eFeU9wZ8qjm5SGSoZv7RArzCJJq5URiUegCIIEIwCQny4Bna1p3wzzNpoGgaRerzwhWHqeqwTPw4ck9cVs2AuK03o2vqnFD4r1ab0tK-vf53h7qDpC5q9SbAT2TcZpecixIVjz_JrgxN5RALJ8QI2lF_g[\r][\n]"
+2021-12-05 13:53:50,721 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:53:50,721 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:8081[\r][\n]"
+2021-12-05 13:53:50,721 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:53:50,721 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:53:50,721 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:53:50,721 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:53:50,721 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> GET /api/admin HTTP/1.1
+2021-12-05 13:53:50,722 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkxMzAsImlhdCI6MTYzODcwODgzMCwianRpIjoiMTVkZGQ5MTUtNTA0My00ZTlkLWFhNDktM2U3NTg4Mjk5MzdlIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiYWYxMzRjYWItZjQxYy00Njc1LWIxNDEtMjA1Zjk3NWRiNjc5IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6IjYxNzMzMTQzLTkzNDItNDQ4NS05NWYzLTY0NWQzMzg4Y2VlZSIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiYWRtaW4iLCJ1c2VyIl19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiI2MTczMzE0My05MzQyLTQ0ODUtOTVmMy02NDVkMzM4OGNlZWUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIn0.mBEzt6-BD1lXlcOP8U7y05i2bF8OiPFM4LjNf_oK93bfLnRh-mS1Q8E0aTF8lNuDYyqsUvK2yMDLD88qtg7TNxmwaQMM5gbZavnpBJPd4aSjBsBwRS53arcbHcfQ2vTgFBUK5Z1zhmeFTR9i9V1hiB8t_X2EIFio3KS6zOFZWDe_7MCGx_waDmfWHWXt3eFeU9wZ8qjm5SGSoZv7RArzCJJq5URiUegCIIEIwCQny4Bna1p3wzzNpoGgaRerzwhWHqeqwTPw4ck9cVs2AuK03o2vqnFD4r1ab0tK-vf53h7qDpC5q9SbAT2TcZpecixIVjz_JrgxN5RALJ8QI2lF_g
+2021-12-05 13:53:50,722 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:53:50,722 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:8081
+2021-12-05 13:53:50,722 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:53:50,722 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:53:50,722 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:53:50,976 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-05 13:53:50,976 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+2021-12-05 13:53:50,976 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "content-length: 7[\r][\n]"
+2021-12-05 13:53:50,976 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:53:50,976 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 200 OK
+2021-12-05 13:53:50,976 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 200 OK
+2021-12-05 13:53:50,977 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Content-Type: text/plain;charset=UTF-8
+2021-12-05 13:53:50,977 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << content-length: 7
+2021-12-05 13:53:50,977 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:53:50,977 florians-mbp ForkedBooter[50158] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsing response as: text/plain;charset=UTF-8
+2021-12-05 13:53:50,977 florians-mbp ForkedBooter[50158] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-12-05 13:53:51,014 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:32820
+2021-12-05 13:53:51,015 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:32820
+2021-12-05 13:53:51,015 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:53:51,015 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:53:51,015 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestTargetAuthentication] (main) Target auth state: UNCHALLENGED
+2021-12-05 13:53:51,015 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:53:51,015 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:53:51,015 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:53:51,016 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1[\r][\n]"
+2021-12-05 13:53:51,016 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:53:51,016 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+2021-12-05 13:53:51,016 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Content-Length: 96[\r][\n]"
+2021-12-05 13:53:51,016 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:32820[\r][\n]"
+2021-12-05 13:53:51,016 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:53:51,016 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:53:51,016 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:53:51,016 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:53:51,016 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:53:51,016 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:53:51,016 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+2021-12-05 13:53:51,017 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Content-Length: 96
+2021-12-05 13:53:51,017 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:32820
+2021-12-05 13:53:51,017 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:53:51,017 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:53:51,017 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:53:51,017 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "grant_type=password&username=alice&password=alice&client_id=backend-service&client_secret=secret"
+2021-12-05 13:53:51,158 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-05 13:53:51,158 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Cache-Control: no-store[\r][\n]"
+2021-12-05 13:53:51,158 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Set-Cookie: KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly[\r][\n]"
+2021-12-05 13:53:51,158 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly[\r][\n]"
+2021-12-05 13:53:51,158 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2021-12-05 13:53:51,158 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Pragma: no-cache[\r][\n]"
+2021-12-05 13:53:51,158 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2021-12-05 13:53:51,158 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Referrer-Policy: no-referrer[\r][\n]"
+2021-12-05 13:53:51,158 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Date: Sun, 05 Dec 2021 12:53:51 GMT[\r][\n]"
+2021-12-05 13:53:51,158 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Connection: keep-alive[\r][\n]"
+2021-12-05 13:53:51,158 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "X-Content-Type-Options: nosniff[\r][\n]"
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Content-Type: application/json[\r][\n]"
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Content-Length: 1908[\r][\n]"
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 200 OK
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 200 OK
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Cache-Control: no-store
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Set-Cookie: KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << X-XSS-Protection: 1; mode=block
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Pragma: no-cache
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << X-Frame-Options: SAMEORIGIN
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Referrer-Policy: no-referrer
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Date: Sun, 05 Dec 2021 12:53:51 GMT
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Connection: keep-alive
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << X-Content-Type-Options: nosniff
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Content-Type: application/json
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Content-Length: 1908
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:53:51,159 florians-mbp ForkedBooter[50158] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsing response as: application/json
+2021-12-05 13:53:51,160 florians-mbp ForkedBooter[50158] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-12-05 13:53:51,162 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkxMzEsImlhdCI6MTYzODcwODgzMSwianRpIjoiYjg0YmE0NmYtOWEzYS00OWQ0LTgzNTUtYzY3Yzk5Yzc4ZmE0IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiZWI0MTIzYTMtYjcyMi00Nzk4LTlhZjUtODk1N2Y4MjM2NTdhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6ImMzMWEyYjk2LTQ5YTUtNGQ4NC1iMDgwLTFjOTU1YjIxZDNlYyIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidXNlciJdfSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiYzMxYTJiOTYtNDlhNS00ZDg0LWIwODAtMWM5NTViMjFkM2VjIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhbGljZSJ9.Onu4SLJkcyg2JCh95-MlG2qMRS-KOOBcYZWO4e1QYnrpi4fl8Hy6gRfANXQxhsdRWowRhxOl7gIxamtXmOp-3vbeffAd8RjHvEwDfW42r1R7s7k8wf57X55Io-ePkacj5wYfHbgXM9hHuN6HfT0y1BqMCt-5i3ACcRByCpNC51nElwGLOhTxTNAuKWJ3o0-GAFk4Ur7kcko-laE_FgWEALoZKRMFYjqvnflyWLxHwmUCE5GS0-C8JgqZuP6C0BTrY3V76a2o1g4rB3e9fqMIU9QovQjHQlzcSGejZyoZ09s8iUNF3VgYg5ffOwxQPOwS5Fngr00gI8blz5Q_kmgAFA","expires_in":300,"refresh_expires_in":1800,"refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NmFmZDAwZS04NWNmLTRkMzUtYjE4ZS0wNjFkMzgxM2Q4YjIifQ.eyJleHAiOjE2Mzg3MTA2MzEsImlhdCI6MTYzODcwODgzMSwianRpIjoiNThhMzNiZGYtOTliNC00ZGYzLTliNTUtNjlhMDRkNTkwNDJhIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiZWI0MTIzYTMtYjcyMi00Nzk4LTlhZjUtODk1N2Y4MjM2NTdhIiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImJhY2tlbmQtc2VydmljZSIsInNlc3Npb25fc3RhdGUiOiJjMzFhMmI5Ni00OWE1LTRkODQtYjA4MC0xYzk1NWIyMWQzZWMiLCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiJjMzFhMmI5Ni00OWE1LTRkODQtYjA4MC0xYzk1NWIyMWQzZWMifQ.Idv-0FB4YhyzT3citJvSh2R2jjd88xk7dZrfCBDme6o","token_type":"Bearer","not-before-policy":0,"session_state":"c31a2b96-49a5-4d84-b080-1c955b21d3ec","scope":"email profile"}"
+2021-12-05 13:53:51,163 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7f2ca6f8
+2021-12-05 13:53:51,163 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Connection can be kept alive indefinitely
+2021-12-05 13:53:51,176 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:8081
+2021-12-05 13:53:51,176 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:8081
+2021-12-05 13:53:51,177 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:53:51,177 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:53:51,177 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:53:51,178 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:53:51,178 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: GET /api/admin HTTP/1.1
+2021-12-05 13:53:51,179 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "GET /api/admin HTTP/1.1[\r][\n]"
+2021-12-05 13:53:51,179 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkxMzEsImlhdCI6MTYzODcwODgzMSwianRpIjoiYjg0YmE0NmYtOWEzYS00OWQ0LTgzNTUtYzY3Yzk5Yzc4ZmE0IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiZWI0MTIzYTMtYjcyMi00Nzk4LTlhZjUtODk1N2Y4MjM2NTdhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6ImMzMWEyYjk2LTQ5YTUtNGQ4NC1iMDgwLTFjOTU1YjIxZDNlYyIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidXNlciJdfSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiYzMxYTJiOTYtNDlhNS00ZDg0LWIwODAtMWM5NTViMjFkM2VjIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhbGljZSJ9.Onu4SLJkcyg2JCh95-MlG2qMRS-KOOBcYZWO4e1QYnrpi4fl8Hy6gRfANXQxhsdRWowRhxOl7gIxamtXmOp-3vbeffAd8RjHvEwDfW42r1R7s7k8wf57X55Io-ePkacj5wYfHbgXM9hHuN6HfT0y1BqMCt-5i3ACcRByCpNC51nElwGLOhTxTNAuKWJ3o0-GAFk4Ur7kcko-laE_FgWEALoZKRMFYjqvnflyWLxHwmUCE5GS0-C8JgqZuP6C0BTrY3V76a2o1g4rB3e9fqMIU9QovQjHQlzcSGejZyoZ09s8iUNF3VgYg5ffOwxQPOwS5Fngr00gI8blz5Q_kmgAFA[\r][\n]"
+2021-12-05 13:53:51,179 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:53:51,179 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:8081[\r][\n]"
+2021-12-05 13:53:51,179 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:53:51,179 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:53:51,179 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:53:51,179 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:53:51,179 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> GET /api/admin HTTP/1.1
+2021-12-05 13:53:51,179 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkxMzEsImlhdCI6MTYzODcwODgzMSwianRpIjoiYjg0YmE0NmYtOWEzYS00OWQ0LTgzNTUtYzY3Yzk5Yzc4ZmE0IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiZWI0MTIzYTMtYjcyMi00Nzk4LTlhZjUtODk1N2Y4MjM2NTdhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6ImMzMWEyYjk2LTQ5YTUtNGQ4NC1iMDgwLTFjOTU1YjIxZDNlYyIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidXNlciJdfSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiYzMxYTJiOTYtNDlhNS00ZDg0LWIwODAtMWM5NTViMjFkM2VjIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhbGljZSJ9.Onu4SLJkcyg2JCh95-MlG2qMRS-KOOBcYZWO4e1QYnrpi4fl8Hy6gRfANXQxhsdRWowRhxOl7gIxamtXmOp-3vbeffAd8RjHvEwDfW42r1R7s7k8wf57X55Io-ePkacj5wYfHbgXM9hHuN6HfT0y1BqMCt-5i3ACcRByCpNC51nElwGLOhTxTNAuKWJ3o0-GAFk4Ur7kcko-laE_FgWEALoZKRMFYjqvnflyWLxHwmUCE5GS0-C8JgqZuP6C0BTrY3V76a2o1g4rB3e9fqMIU9QovQjHQlzcSGejZyoZ09s8iUNF3VgYg5ffOwxQPOwS5Fngr00gI8blz5Q_kmgAFA
+2021-12-05 13:53:51,180 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:53:51,180 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:8081
+2021-12-05 13:53:51,180 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:53:51,180 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:53:51,180 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:53:51,203 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 403 Forbidden[\r][\n]"
+2021-12-05 13:53:51,203 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "content-length: 0[\r][\n]"
+2021-12-05 13:53:51,203 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:53:51,203 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 403 Forbidden
+2021-12-05 13:53:51,203 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 403 Forbidden
+2021-12-05 13:53:51,204 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << content-length: 0
+2021-12-05 13:53:51,204 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:53:51,231 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:32820
+2021-12-05 13:53:51,231 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:32820
+2021-12-05 13:53:51,232 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:53:51,232 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:53:51,232 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestTargetAuthentication] (main) Target auth state: UNCHALLENGED
+2021-12-05 13:53:51,232 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:53:51,232 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:53:51,233 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:53:51,233 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1[\r][\n]"
+2021-12-05 13:53:51,233 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:53:51,233 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+2021-12-05 13:53:51,233 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Content-Length: 96[\r][\n]"
+2021-12-05 13:53:51,233 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:32820[\r][\n]"
+2021-12-05 13:53:51,233 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:53:51,233 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:53:51,233 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:53:51,233 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:53:51,234 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:53:51,234 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:53:51,234 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+2021-12-05 13:53:51,234 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Content-Length: 96
+2021-12-05 13:53:51,234 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:32820
+2021-12-05 13:53:51,234 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:53:51,234 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:53:51,234 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:53:51,234 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "grant_type=password&username=alice&password=alice&client_id=backend-service&client_secret=secret"
+2021-12-05 13:53:51,361 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-05 13:53:51,361 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Cache-Control: no-store[\r][\n]"
+2021-12-05 13:53:51,361 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Set-Cookie: KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly[\r][\n]"
+2021-12-05 13:53:51,361 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly[\r][\n]"
+2021-12-05 13:53:51,361 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2021-12-05 13:53:51,361 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Pragma: no-cache[\r][\n]"
+2021-12-05 13:53:51,361 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2021-12-05 13:53:51,361 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Referrer-Policy: no-referrer[\r][\n]"
+2021-12-05 13:53:51,361 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Date: Sun, 05 Dec 2021 12:53:51 GMT[\r][\n]"
+2021-12-05 13:53:51,361 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Connection: keep-alive[\r][\n]"
+2021-12-05 13:53:51,361 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2021-12-05 13:53:51,361 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "X-Content-Type-Options: nosniff[\r][\n]"
+2021-12-05 13:53:51,361 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Content-Type: application/json[\r][\n]"
+2021-12-05 13:53:51,361 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Content-Length: 1908[\r][\n]"
+2021-12-05 13:53:51,361 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:53:51,361 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 200 OK
+2021-12-05 13:53:51,361 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 200 OK
+2021-12-05 13:53:51,361 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Cache-Control: no-store
+2021-12-05 13:53:51,361 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Set-Cookie: KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly
+2021-12-05 13:53:51,362 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly
+2021-12-05 13:53:51,362 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << X-XSS-Protection: 1; mode=block
+2021-12-05 13:53:51,362 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Pragma: no-cache
+2021-12-05 13:53:51,362 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << X-Frame-Options: SAMEORIGIN
+2021-12-05 13:53:51,362 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Referrer-Policy: no-referrer
+2021-12-05 13:53:51,362 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Date: Sun, 05 Dec 2021 12:53:51 GMT
+2021-12-05 13:53:51,362 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Connection: keep-alive
+2021-12-05 13:53:51,362 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2021-12-05 13:53:51,362 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << X-Content-Type-Options: nosniff
+2021-12-05 13:53:51,362 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Content-Type: application/json
+2021-12-05 13:53:51,362 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Content-Length: 1908
+2021-12-05 13:53:51,362 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:53:51,363 florians-mbp ForkedBooter[50158] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsing response as: application/json
+2021-12-05 13:53:51,363 florians-mbp ForkedBooter[50158] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-12-05 13:53:51,364 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkxMzEsImlhdCI6MTYzODcwODgzMSwianRpIjoiYzc4MDQ1N2MtY2U4Mi00OTUwLWJjODAtZWFjNjU1MTBhNDk2IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiZWI0MTIzYTMtYjcyMi00Nzk4LTlhZjUtODk1N2Y4MjM2NTdhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6ImYyZjk0YzFiLThmNjAtNGJjNi04YzBmLTJiZjM0Y2I5YTU4NCIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidXNlciJdfSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiZjJmOTRjMWItOGY2MC00YmM2LThjMGYtMmJmMzRjYjlhNTg0IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhbGljZSJ9.Zx4YR-CMZupv6VP1kLAGYZZIx4gUSJDC_r6ayB_IySqM7SPwIrP21RlvMvMJ3R04EJ-Fs7wpll00qGQQLAPKQAuyomENhHEx3w3f1V7yxyrhYn9Y3FZwagb72ql-YM6n8_QaDF5HHaa47VDHWLWj0-NtF6_XjRBODqs4ONQwhUPvaSQdGYlU64wIFM9JcG2r4LA4E2PMV2v852Niew8lytHvqenej4TuOVZywXhnBdgP1s-XqWNGqS86ZPezRltW9O2D0rOYvivpu4ZfDoRtMebQiYxPNDJCkbeDTCU66u_-FmdZNiIkBymHX87_iX1HA8NNrhnVOGBIlxCy8PeXXA","expires_in":300,"refresh_expires_in":1800,"refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NmFmZDAwZS04NWNmLTRkMzUtYjE4ZS0wNjFkMzgxM2Q4YjIifQ.eyJleHAiOjE2Mzg3MTA2MzEsImlhdCI6MTYzODcwODgzMSwianRpIjoiMGQ0ZTg0ZTMtMTlhNi00NGY1LTk0MmMtNTVhNDQ2ZDM3NGM1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiZWI0MTIzYTMtYjcyMi00Nzk4LTlhZjUtODk1N2Y4MjM2NTdhIiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImJhY2tlbmQtc2VydmljZSIsInNlc3Npb25fc3RhdGUiOiJmMmY5NGMxYi04ZjYwLTRiYzYtOGMwZi0yYmYzNGNiOWE1ODQiLCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiJmMmY5NGMxYi04ZjYwLTRiYzYtOGMwZi0yYmYzNGNiOWE1ODQifQ.y0kkZ1rQrXxkLemdYuVusAaWCrWrtM202Jq9m1niTMg","token_type":"Bearer","not-before-policy":0,"session_state":"f2f94c1b-8f60-4bc6-8c0f-2bf34cb9a584","scope":"email profile"}"
+2021-12-05 13:53:51,365 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7da77305
+2021-12-05 13:53:51,365 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Connection can be kept alive indefinitely
+2021-12-05 13:53:51,373 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:8081
+2021-12-05 13:53:51,374 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:8081
+2021-12-05 13:53:51,374 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:53:51,374 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:53:51,374 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:53:51,374 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:53:51,375 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: GET /api/users/me HTTP/1.1
+2021-12-05 13:53:51,375 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "GET /api/users/me HTTP/1.1[\r][\n]"
+2021-12-05 13:53:51,375 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkxMzEsImlhdCI6MTYzODcwODgzMSwianRpIjoiYzc4MDQ1N2MtY2U4Mi00OTUwLWJjODAtZWFjNjU1MTBhNDk2IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiZWI0MTIzYTMtYjcyMi00Nzk4LTlhZjUtODk1N2Y4MjM2NTdhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6ImYyZjk0YzFiLThmNjAtNGJjNi04YzBmLTJiZjM0Y2I5YTU4NCIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidXNlciJdfSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiZjJmOTRjMWItOGY2MC00YmM2LThjMGYtMmJmMzRjYjlhNTg0IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhbGljZSJ9.Zx4YR-CMZupv6VP1kLAGYZZIx4gUSJDC_r6ayB_IySqM7SPwIrP21RlvMvMJ3R04EJ-Fs7wpll00qGQQLAPKQAuyomENhHEx3w3f1V7yxyrhYn9Y3FZwagb72ql-YM6n8_QaDF5HHaa47VDHWLWj0-NtF6_XjRBODqs4ONQwhUPvaSQdGYlU64wIFM9JcG2r4LA4E2PMV2v852Niew8lytHvqenej4TuOVZywXhnBdgP1s-XqWNGqS86ZPezRltW9O2D0rOYvivpu4ZfDoRtMebQiYxPNDJCkbeDTCU66u_-FmdZNiIkBymHX87_iX1HA8NNrhnVOGBIlxCy8PeXXA[\r][\n]"
+2021-12-05 13:53:51,375 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:53:51,375 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:8081[\r][\n]"
+2021-12-05 13:53:51,375 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:53:51,375 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:53:51,375 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:53:51,375 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:53:51,375 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> GET /api/users/me HTTP/1.1
+2021-12-05 13:53:51,375 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkxMzEsImlhdCI6MTYzODcwODgzMSwianRpIjoiYzc4MDQ1N2MtY2U4Mi00OTUwLWJjODAtZWFjNjU1MTBhNDk2IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiZWI0MTIzYTMtYjcyMi00Nzk4LTlhZjUtODk1N2Y4MjM2NTdhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6ImYyZjk0YzFiLThmNjAtNGJjNi04YzBmLTJiZjM0Y2I5YTU4NCIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidXNlciJdfSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiZjJmOTRjMWItOGY2MC00YmM2LThjMGYtMmJmMzRjYjlhNTg0IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhbGljZSJ9.Zx4YR-CMZupv6VP1kLAGYZZIx4gUSJDC_r6ayB_IySqM7SPwIrP21RlvMvMJ3R04EJ-Fs7wpll00qGQQLAPKQAuyomENhHEx3w3f1V7yxyrhYn9Y3FZwagb72ql-YM6n8_QaDF5HHaa47VDHWLWj0-NtF6_XjRBODqs4ONQwhUPvaSQdGYlU64wIFM9JcG2r4LA4E2PMV2v852Niew8lytHvqenej4TuOVZywXhnBdgP1s-XqWNGqS86ZPezRltW9O2D0rOYvivpu4ZfDoRtMebQiYxPNDJCkbeDTCU66u_-FmdZNiIkBymHX87_iX1HA8NNrhnVOGBIlxCy8PeXXA
+2021-12-05 13:53:51,375 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:53:51,375 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:8081
+2021-12-05 13:53:51,375 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:53:51,375 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:53:51,375 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:53:51,408 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-05 13:53:51,408 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Cache-Control: no-cache[\r][\n]"
+2021-12-05 13:53:51,408 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Content-Type: application/json[\r][\n]"
+2021-12-05 13:53:51,408 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "content-length: 20[\r][\n]"
+2021-12-05 13:53:51,408 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:53:51,408 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 200 OK
+2021-12-05 13:53:51,408 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 200 OK
+2021-12-05 13:53:51,408 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Cache-Control: no-cache
+2021-12-05 13:53:51,409 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Content-Type: application/json
+2021-12-05 13:53:51,409 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << content-length: 20
+2021-12-05 13:53:51,409 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:53:51,409 florians-mbp ForkedBooter[50158] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsing response as: application/json
+2021-12-05 13:53:51,409 florians-mbp ForkedBooter[50158] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-12-05 13:53:51,417 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:32820
+2021-12-05 13:53:51,418 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:32820
+2021-12-05 13:53:51,418 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:53:51,418 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:53:51,418 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestTargetAuthentication] (main) Target auth state: UNCHALLENGED
+2021-12-05 13:53:51,418 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:53:51,418 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:53:51,419 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:53:51,419 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1[\r][\n]"
+2021-12-05 13:53:51,419 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:53:51,419 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+2021-12-05 13:53:51,419 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Content-Length: 96[\r][\n]"
+2021-12-05 13:53:51,419 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:32820[\r][\n]"
+2021-12-05 13:53:51,419 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:53:51,419 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:53:51,419 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:53:51,419 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:53:51,419 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:53:51,419 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:53:51,419 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+2021-12-05 13:53:51,419 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Content-Length: 96
+2021-12-05 13:53:51,419 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:32820
+2021-12-05 13:53:51,420 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:53:51,420 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:53:51,420 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:53:51,420 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "grant_type=password&username=admin&password=admin&client_id=backend-service&client_secret=secret"
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Cache-Control: no-store[\r][\n]"
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Set-Cookie: KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly[\r][\n]"
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly[\r][\n]"
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Pragma: no-cache[\r][\n]"
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Referrer-Policy: no-referrer[\r][\n]"
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Date: Sun, 05 Dec 2021 12:53:51 GMT[\r][\n]"
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Connection: keep-alive[\r][\n]"
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "X-Content-Type-Options: nosniff[\r][\n]"
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Content-Type: application/json[\r][\n]"
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Content-Length: 1919[\r][\n]"
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 200 OK
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 200 OK
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Cache-Control: no-store
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Set-Cookie: KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly
+2021-12-05 13:53:51,528 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly
+2021-12-05 13:53:51,529 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << X-XSS-Protection: 1; mode=block
+2021-12-05 13:53:51,529 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Pragma: no-cache
+2021-12-05 13:53:51,529 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << X-Frame-Options: SAMEORIGIN
+2021-12-05 13:53:51,529 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Referrer-Policy: no-referrer
+2021-12-05 13:53:51,529 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Date: Sun, 05 Dec 2021 12:53:51 GMT
+2021-12-05 13:53:51,529 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Connection: keep-alive
+2021-12-05 13:53:51,529 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2021-12-05 13:53:51,529 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << X-Content-Type-Options: nosniff
+2021-12-05 13:53:51,529 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Content-Type: application/json
+2021-12-05 13:53:51,529 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Content-Length: 1919
+2021-12-05 13:53:51,529 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:53:51,529 florians-mbp ForkedBooter[50158] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsing response as: application/json
+2021-12-05 13:53:51,529 florians-mbp ForkedBooter[50158] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-12-05 13:53:51,531 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkxMzEsImlhdCI6MTYzODcwODgzMSwianRpIjoiNTg5ZTc3MTQtODkyMy00OGE2LWJiN2MtNzcyMTVjODg2NWZhIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiYWYxMzRjYWItZjQxYy00Njc1LWIxNDEtMjA1Zjk3NWRiNjc5IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6ImViODM4OTg1LTQzNmYtNDY5OS1hYzNmLWY0NzQ2ZWM2NTFhOSIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiYWRtaW4iLCJ1c2VyIl19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiJlYjgzODk4NS00MzZmLTQ2OTktYWMzZi1mNDc0NmVjNjUxYTkiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIn0.BqM4OdZ8W63I9szlthtdbfuFpIIPtTuKPqdn5NcRbUvWiIWfr98n56Ti-rw9XppaJ68Rh3plcRRXq_jN9hKWQV8tZrvJNTaxtOqJEWYENEeMCPRaC6cnJCMfxvO0EbO5l1oHMTHjOp9xi4V7oQqpJcRMbZ_asQo9H8OdKgDdgoqQcjWXwD0gKpWOztoDUqJ3A-AZuhgUn-0SqjkvOrYIYvEZuyzAGf3X9S8ZPw-qtZu8ZSF1h0tU7-OQ2hQxqb8C8NIuSf7drS4lh9GXD5f3IDpJSA_whTjoPONPk6IStTjcFFXwj6FJ_aaJoaqDMTQLvTr9DhvQHkNNhNRd1CoWuw","expires_in":300,"refresh_expires_in":1800,"refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NmFmZDAwZS04NWNmLTRkMzUtYjE4ZS0wNjFkMzgxM2Q4YjIifQ.eyJleHAiOjE2Mzg3MTA2MzEsImlhdCI6MTYzODcwODgzMSwianRpIjoiNzhjMGQ3NjYtZTNlYi00MGNkLThlODEtMzI3MGJiYzJmMjllIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiYWYxMzRjYWItZjQxYy00Njc1LWIxNDEtMjA1Zjk3NWRiNjc5IiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImJhY2tlbmQtc2VydmljZSIsInNlc3Npb25fc3RhdGUiOiJlYjgzODk4NS00MzZmLTQ2OTktYWMzZi1mNDc0NmVjNjUxYTkiLCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiJlYjgzODk4NS00MzZmLTQ2OTktYWMzZi1mNDc0NmVjNjUxYTkifQ.WK7NWaYCavACHdw-lCpE7IBEHa_j31oLPHROK8apEw8","token_type":"Bearer","not-before-policy":0,"session_state":"eb838985-436f-4699-ac3f-f4746ec651a9","scope":"email profile"}"
+2021-12-05 13:53:51,531 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@22ff1372
+2021-12-05 13:53:51,531 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Connection can be kept alive indefinitely
+2021-12-05 13:53:51,539 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:8081
+2021-12-05 13:53:51,539 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:8081
+2021-12-05 13:53:51,540 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:53:51,540 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:53:51,540 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:53:51,540 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:53:51,540 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: GET /api/users/me HTTP/1.1
+2021-12-05 13:53:51,540 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "GET /api/users/me HTTP/1.1[\r][\n]"
+2021-12-05 13:53:51,540 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkxMzEsImlhdCI6MTYzODcwODgzMSwianRpIjoiNTg5ZTc3MTQtODkyMy00OGE2LWJiN2MtNzcyMTVjODg2NWZhIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiYWYxMzRjYWItZjQxYy00Njc1LWIxNDEtMjA1Zjk3NWRiNjc5IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6ImViODM4OTg1LTQzNmYtNDY5OS1hYzNmLWY0NzQ2ZWM2NTFhOSIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiYWRtaW4iLCJ1c2VyIl19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiJlYjgzODk4NS00MzZmLTQ2OTktYWMzZi1mNDc0NmVjNjUxYTkiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIn0.BqM4OdZ8W63I9szlthtdbfuFpIIPtTuKPqdn5NcRbUvWiIWfr98n56Ti-rw9XppaJ68Rh3plcRRXq_jN9hKWQV8tZrvJNTaxtOqJEWYENEeMCPRaC6cnJCMfxvO0EbO5l1oHMTHjOp9xi4V7oQqpJcRMbZ_asQo9H8OdKgDdgoqQcjWXwD0gKpWOztoDUqJ3A-AZuhgUn-0SqjkvOrYIYvEZuyzAGf3X9S8ZPw-qtZu8ZSF1h0tU7-OQ2hQxqb8C8NIuSf7drS4lh9GXD5f3IDpJSA_whTjoPONPk6IStTjcFFXwj6FJ_aaJoaqDMTQLvTr9DhvQHkNNhNRd1CoWuw[\r][\n]"
+2021-12-05 13:53:51,540 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:53:51,540 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:8081[\r][\n]"
+2021-12-05 13:53:51,540 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:53:51,540 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:53:51,540 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:53:51,540 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:53:51,540 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> GET /api/users/me HTTP/1.1
+2021-12-05 13:53:51,541 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkxMzEsImlhdCI6MTYzODcwODgzMSwianRpIjoiNTg5ZTc3MTQtODkyMy00OGE2LWJiN2MtNzcyMTVjODg2NWZhIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyMC9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiYWYxMzRjYWItZjQxYy00Njc1LWIxNDEtMjA1Zjk3NWRiNjc5IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6ImViODM4OTg1LTQzNmYtNDY5OS1hYzNmLWY0NzQ2ZWM2NTFhOSIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiYWRtaW4iLCJ1c2VyIl19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiJlYjgzODk4NS00MzZmLTQ2OTktYWMzZi1mNDc0NmVjNjUxYTkiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIn0.BqM4OdZ8W63I9szlthtdbfuFpIIPtTuKPqdn5NcRbUvWiIWfr98n56Ti-rw9XppaJ68Rh3plcRRXq_jN9hKWQV8tZrvJNTaxtOqJEWYENEeMCPRaC6cnJCMfxvO0EbO5l1oHMTHjOp9xi4V7oQqpJcRMbZ_asQo9H8OdKgDdgoqQcjWXwD0gKpWOztoDUqJ3A-AZuhgUn-0SqjkvOrYIYvEZuyzAGf3X9S8ZPw-qtZu8ZSF1h0tU7-OQ2hQxqb8C8NIuSf7drS4lh9GXD5f3IDpJSA_whTjoPONPk6IStTjcFFXwj6FJ_aaJoaqDMTQLvTr9DhvQHkNNhNRd1CoWuw
+2021-12-05 13:53:51,541 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:53:51,541 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:8081
+2021-12-05 13:53:51,541 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:53:51,541 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:53:51,541 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:53:51,550 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-05 13:53:51,551 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Cache-Control: no-cache[\r][\n]"
+2021-12-05 13:53:51,551 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "Content-Type: application/json[\r][\n]"
+2021-12-05 13:53:51,551 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "content-length: 20[\r][\n]"
+2021-12-05 13:53:51,551 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:53:51,551 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 200 OK
+2021-12-05 13:53:51,551 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 200 OK
+2021-12-05 13:53:51,551 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Cache-Control: no-cache
+2021-12-05 13:53:51,551 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << Content-Type: application/json
+2021-12-05 13:53:51,551 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.headers] (main) << content-length: 20
+2021-12-05 13:53:51,551 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:53:51,551 florians-mbp ForkedBooter[50158] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsing response as: application/json
+2021-12-05 13:53:51,551 florians-mbp ForkedBooter[50158] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-12-05 13:53:51,571 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (Finalizer) Connection 0.0.0.0:60581<->127.0.0.1:8081 closed
+2021-12-05 13:53:51,576 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (Finalizer) Connection 0.0.0.0:60580<->127.0.0.1:32820 closed
+2021-12-05 13:53:51,581 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (Finalizer) Connection 0.0.0.0:60583<->127.0.0.1:8081 closed
+2021-12-05 13:53:51,582 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (Finalizer) Connection 0.0.0.0:60582<->127.0.0.1:32820 closed
+2021-12-05 13:53:51,584 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (Finalizer) Connection 0.0.0.0:60578<->127.0.0.1:32820 closed
+2021-12-05 13:53:51,588 florians-mbp ForkedBooter[50158] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (Finalizer) Connection 0.0.0.0:60579<->127.0.0.1:8081 closed
+2021-12-05 13:57:05,540 florians-mbp ForkedBooter[50266] DEBUG [io.net.uti.int.log.InternalLoggerFactory] (main) Using SLF4J as the default logging framework
+2021-12-05 13:57:05,541 florians-mbp ForkedBooter[50266] DEBUG [io.net.uti.int.PlatformDependent0] (main) -Dio.netty.noUnsafe: false
+2021-12-05 13:57:05,541 florians-mbp ForkedBooter[50266] DEBUG [io.net.uti.int.PlatformDependent0] (main) Java version: 12
+2021-12-05 13:57:05,542 florians-mbp ForkedBooter[50266] DEBUG [io.net.uti.int.PlatformDependent0] (main) sun.misc.Unsafe.theUnsafe: available
+2021-12-05 13:57:05,542 florians-mbp ForkedBooter[50266] DEBUG [io.net.uti.int.PlatformDependent0] (main) sun.misc.Unsafe.copyMemory: available
+2021-12-05 13:57:05,542 florians-mbp ForkedBooter[50266] DEBUG [io.net.uti.int.PlatformDependent0] (main) java.nio.Buffer.address: available
+2021-12-05 13:57:05,543 florians-mbp ForkedBooter[50266] DEBUG [io.net.uti.int.PlatformDependent0] (main) direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2021-12-05 13:57:05,543 florians-mbp ForkedBooter[50266] DEBUG [io.net.uti.int.PlatformDependent0] (main) java.nio.Bits.unaligned: available, true
+2021-12-05 13:57:05,543 florians-mbp ForkedBooter[50266] DEBUG [io.net.uti.int.PlatformDependent0] (main) jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @701bc94e
+2021-12-05 13:57:05,543 florians-mbp ForkedBooter[50266] DEBUG [io.net.uti.int.PlatformDependent0] (main) java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2021-12-05 13:57:05,543 florians-mbp ForkedBooter[50266] DEBUG [io.net.uti.int.PlatformDependent] (main) sun.misc.Unsafe: available
+2021-12-05 13:57:05,544 florians-mbp ForkedBooter[50266] DEBUG [io.net.uti.int.PlatformDependent] (main) maxDirectMemory: 4294967296 bytes (maybe)
+2021-12-05 13:57:05,544 florians-mbp ForkedBooter[50266] DEBUG [io.net.uti.int.PlatformDependent] (main) -Dio.netty.tmpdir: /var/folders/w8/qq8v5_l52jd1swx8wqj9k6qc0000gn/T (java.io.tmpdir)
+2021-12-05 13:57:05,544 florians-mbp ForkedBooter[50266] DEBUG [io.net.uti.int.PlatformDependent] (main) -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-12-05 13:57:05,544 florians-mbp ForkedBooter[50266] DEBUG [io.net.uti.int.PlatformDependent] (main) Platform: MacOS
+2021-12-05 13:57:05,544 florians-mbp ForkedBooter[50266] DEBUG [io.net.uti.int.PlatformDependent] (main) -Dio.netty.maxDirectMemory: -1 bytes
+2021-12-05 13:57:05,544 florians-mbp ForkedBooter[50266] DEBUG [io.net.uti.int.PlatformDependent] (main) -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-12-05 13:57:05,545 florians-mbp ForkedBooter[50266] DEBUG [io.net.uti.int.CleanerJava9] (main) java.nio.ByteBuffer.cleaner(): available
+2021-12-05 13:57:05,545 florians-mbp ForkedBooter[50266] DEBUG [io.net.uti.int.PlatformDependent] (main) -Dio.netty.noPreferDirect: false
+2021-12-05 13:57:09,472 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:32826
+2021-12-05 13:57:09,480 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:32826
+2021-12-05 13:57:09,497 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:57:09,498 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:57:09,498 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestTargetAuthentication] (main) Target auth state: UNCHALLENGED
+2021-12-05 13:57:09,499 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:57:09,499 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:57:09,499 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:57:09,499 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1[\r][\n]"
+2021-12-05 13:57:09,500 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:57:09,500 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+2021-12-05 13:57:09,500 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Content-Length: 96[\r][\n]"
+2021-12-05 13:57:09,500 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:32826[\r][\n]"
+2021-12-05 13:57:09,500 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:57:09,500 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:57:09,500 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:57:09,500 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:57:09,500 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:57:09,500 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:57:09,501 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+2021-12-05 13:57:09,501 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Content-Length: 96
+2021-12-05 13:57:09,501 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:32826
+2021-12-05 13:57:09,501 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:57:09,501 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:57:09,501 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:57:09,501 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "grant_type=password&username=admin&password=admin&client_id=backend-service&client_secret=secret"
+2021-12-05 13:57:10,317 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-05 13:57:10,318 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Cache-Control: no-store[\r][\n]"
+2021-12-05 13:57:10,318 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Set-Cookie: KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly[\r][\n]"
+2021-12-05 13:57:10,318 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly[\r][\n]"
+2021-12-05 13:57:10,318 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2021-12-05 13:57:10,319 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Pragma: no-cache[\r][\n]"
+2021-12-05 13:57:10,319 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2021-12-05 13:57:10,319 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Referrer-Policy: no-referrer[\r][\n]"
+2021-12-05 13:57:10,319 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Date: Sun, 05 Dec 2021 12:57:10 GMT[\r][\n]"
+2021-12-05 13:57:10,319 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Connection: keep-alive[\r][\n]"
+2021-12-05 13:57:10,319 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2021-12-05 13:57:10,319 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "X-Content-Type-Options: nosniff[\r][\n]"
+2021-12-05 13:57:10,319 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Content-Type: application/json[\r][\n]"
+2021-12-05 13:57:10,319 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Content-Length: 1919[\r][\n]"
+2021-12-05 13:57:10,319 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:57:10,320 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 200 OK
+2021-12-05 13:57:10,320 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 200 OK
+2021-12-05 13:57:10,320 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Cache-Control: no-store
+2021-12-05 13:57:10,320 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Set-Cookie: KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly
+2021-12-05 13:57:10,320 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly
+2021-12-05 13:57:10,320 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << X-XSS-Protection: 1; mode=block
+2021-12-05 13:57:10,320 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Pragma: no-cache
+2021-12-05 13:57:10,320 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << X-Frame-Options: SAMEORIGIN
+2021-12-05 13:57:10,320 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Referrer-Policy: no-referrer
+2021-12-05 13:57:10,320 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Date: Sun, 05 Dec 2021 12:57:10 GMT
+2021-12-05 13:57:10,320 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Connection: keep-alive
+2021-12-05 13:57:10,320 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2021-12-05 13:57:10,320 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << X-Content-Type-Options: nosniff
+2021-12-05 13:57:10,321 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Content-Type: application/json
+2021-12-05 13:57:10,321 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Content-Length: 1919
+2021-12-05 13:57:10,324 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:57:10,340 florians-mbp ForkedBooter[50266] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsing response as: application/json
+2021-12-05 13:57:10,341 florians-mbp ForkedBooter[50266] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-12-05 13:57:10,420 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkzMzAsImlhdCI6MTYzODcwOTAzMCwianRpIjoiMzc1NWUyMzYtZWFhOS00MTJhLWE0YWQtZGM1M2MxMWU2MzQzIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiYWYxMzRjYWItZjQxYy00Njc1LWIxNDEtMjA1Zjk3NWRiNjc5IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6IjQzNjM0MTYzLWExYTUtNDA3OC05ZDQ2LTk0ZDM3NzIxNTZjYyIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiYWRtaW4iLCJ1c2VyIl19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiI0MzYzNDE2My1hMWE1LTQwNzgtOWQ0Ni05NGQzNzcyMTU2Y2MiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIn0.RrJEDoDVxsbN4wZTifR4d5M6IEkQt89eUU8ffEECg-0i-aGK9OWVCYGXLcAn0ATZtdzcwFy7X6fvp3p06zgJbtnrH5zIMcd6g0aYHAUdhq4ETR05oW1q3IHegUhYddFdHYOBMBVJpoeAW-pALePoBdOed_CQvBjrAZz5Aifq7qk-Z-haHuYgYcko2JRbb6uSz-ExjnhzLc9ySjmEWgD1VDUP5z3HPKCzICEqWOCSASeJzkEdIG6IaPowkx6y6D9mTcqU-g1iIH3IoLwEAehirfYjT5nW6Ae1RyNAcgHxydMjVVTrBupUZBAQRU_7N8FEmvYN-tzLWM2Hg1LNqlST9w","expires_in":300,"refresh_expires_in":1800,"refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NmFmZDAwZS04NWNmLTRkMzUtYjE4ZS0wNjFkMzgxM2Q4YjIifQ.eyJleHAiOjE2Mzg3MTA4MzAsImlhdCI6MTYzODcwOTAzMCwianRpIjoiMmQ3MTQxYTctMDhmOC00N2JhLWE1MjYtMWZlN2ZkNDljYTQ5IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiYWYxMzRjYWItZjQxYy00Njc1LWIxNDEtMjA1Zjk3NWRiNjc5IiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImJhY2tlbmQtc2VydmljZSIsInNlc3Npb25fc3RhdGUiOiI0MzYzNDE2My1hMWE1LTQwNzgtOWQ0Ni05NGQzNzcyMTU2Y2MiLCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiI0MzYzNDE2My1hMWE1LTQwNzgtOWQ0Ni05NGQzNzcyMTU2Y2MifQ.l17nR6zF1vxTyrl-YdVC25YbWPLHD3ylcM7AgT4V5pY","token_type":"Bearer","not-before-policy":0,"session_state":"43634163-a1a5-4078-9d46-94d3772156cc","scope":"email profile"}"
+2021-12-05 13:57:10,420 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4ef5dd23
+2021-12-05 13:57:10,421 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Connection can be kept alive indefinitely
+2021-12-05 13:57:10,729 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:8081
+2021-12-05 13:57:10,730 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:8081
+2021-12-05 13:57:10,730 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:57:10,730 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:57:10,730 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:57:10,730 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:57:10,730 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: GET /api/admin HTTP/1.1
+2021-12-05 13:57:10,730 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "GET /api/admin HTTP/1.1[\r][\n]"
+2021-12-05 13:57:10,731 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkzMzAsImlhdCI6MTYzODcwOTAzMCwianRpIjoiMzc1NWUyMzYtZWFhOS00MTJhLWE0YWQtZGM1M2MxMWU2MzQzIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiYWYxMzRjYWItZjQxYy00Njc1LWIxNDEtMjA1Zjk3NWRiNjc5IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6IjQzNjM0MTYzLWExYTUtNDA3OC05ZDQ2LTk0ZDM3NzIxNTZjYyIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiYWRtaW4iLCJ1c2VyIl19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiI0MzYzNDE2My1hMWE1LTQwNzgtOWQ0Ni05NGQzNzcyMTU2Y2MiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIn0.RrJEDoDVxsbN4wZTifR4d5M6IEkQt89eUU8ffEECg-0i-aGK9OWVCYGXLcAn0ATZtdzcwFy7X6fvp3p06zgJbtnrH5zIMcd6g0aYHAUdhq4ETR05oW1q3IHegUhYddFdHYOBMBVJpoeAW-pALePoBdOed_CQvBjrAZz5Aifq7qk-Z-haHuYgYcko2JRbb6uSz-ExjnhzLc9ySjmEWgD1VDUP5z3HPKCzICEqWOCSASeJzkEdIG6IaPowkx6y6D9mTcqU-g1iIH3IoLwEAehirfYjT5nW6Ae1RyNAcgHxydMjVVTrBupUZBAQRU_7N8FEmvYN-tzLWM2Hg1LNqlST9w[\r][\n]"
+2021-12-05 13:57:10,731 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:57:10,731 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:8081[\r][\n]"
+2021-12-05 13:57:10,731 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:57:10,731 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:57:10,731 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:57:10,731 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:57:10,731 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> GET /api/admin HTTP/1.1
+2021-12-05 13:57:10,731 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkzMzAsImlhdCI6MTYzODcwOTAzMCwianRpIjoiMzc1NWUyMzYtZWFhOS00MTJhLWE0YWQtZGM1M2MxMWU2MzQzIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiYWYxMzRjYWItZjQxYy00Njc1LWIxNDEtMjA1Zjk3NWRiNjc5IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6IjQzNjM0MTYzLWExYTUtNDA3OC05ZDQ2LTk0ZDM3NzIxNTZjYyIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiYWRtaW4iLCJ1c2VyIl19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiI0MzYzNDE2My1hMWE1LTQwNzgtOWQ0Ni05NGQzNzcyMTU2Y2MiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIn0.RrJEDoDVxsbN4wZTifR4d5M6IEkQt89eUU8ffEECg-0i-aGK9OWVCYGXLcAn0ATZtdzcwFy7X6fvp3p06zgJbtnrH5zIMcd6g0aYHAUdhq4ETR05oW1q3IHegUhYddFdHYOBMBVJpoeAW-pALePoBdOed_CQvBjrAZz5Aifq7qk-Z-haHuYgYcko2JRbb6uSz-ExjnhzLc9ySjmEWgD1VDUP5z3HPKCzICEqWOCSASeJzkEdIG6IaPowkx6y6D9mTcqU-g1iIH3IoLwEAehirfYjT5nW6Ae1RyNAcgHxydMjVVTrBupUZBAQRU_7N8FEmvYN-tzLWM2Hg1LNqlST9w
+2021-12-05 13:57:10,731 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:57:10,731 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:8081
+2021-12-05 13:57:10,731 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:57:10,731 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:57:10,731 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:57:11,014 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-05 13:57:11,014 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+2021-12-05 13:57:11,014 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "content-length: 7[\r][\n]"
+2021-12-05 13:57:11,014 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:57:11,014 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 200 OK
+2021-12-05 13:57:11,014 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 200 OK
+2021-12-05 13:57:11,014 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Content-Type: text/plain;charset=UTF-8
+2021-12-05 13:57:11,014 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << content-length: 7
+2021-12-05 13:57:11,015 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:57:11,015 florians-mbp ForkedBooter[50266] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsing response as: text/plain;charset=UTF-8
+2021-12-05 13:57:11,015 florians-mbp ForkedBooter[50266] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-12-05 13:57:11,069 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:32826
+2021-12-05 13:57:11,069 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:32826
+2021-12-05 13:57:11,070 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:57:11,070 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:57:11,070 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestTargetAuthentication] (main) Target auth state: UNCHALLENGED
+2021-12-05 13:57:11,070 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:57:11,070 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:57:11,070 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:57:11,071 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1[\r][\n]"
+2021-12-05 13:57:11,071 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:57:11,071 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+2021-12-05 13:57:11,071 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Content-Length: 96[\r][\n]"
+2021-12-05 13:57:11,072 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:32826[\r][\n]"
+2021-12-05 13:57:11,072 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:57:11,072 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:57:11,072 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:57:11,072 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:57:11,072 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:57:11,072 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:57:11,072 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+2021-12-05 13:57:11,072 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Content-Length: 96
+2021-12-05 13:57:11,072 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:32826
+2021-12-05 13:57:11,072 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:57:11,073 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:57:11,073 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:57:11,073 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "grant_type=password&username=alice&password=alice&client_id=backend-service&client_secret=secret"
+2021-12-05 13:57:11,258 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-05 13:57:11,258 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Cache-Control: no-store[\r][\n]"
+2021-12-05 13:57:11,258 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Set-Cookie: KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly[\r][\n]"
+2021-12-05 13:57:11,258 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly[\r][\n]"
+2021-12-05 13:57:11,259 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2021-12-05 13:57:11,259 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Pragma: no-cache[\r][\n]"
+2021-12-05 13:57:11,259 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2021-12-05 13:57:11,259 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Referrer-Policy: no-referrer[\r][\n]"
+2021-12-05 13:57:11,259 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Date: Sun, 05 Dec 2021 12:57:11 GMT[\r][\n]"
+2021-12-05 13:57:11,259 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Connection: keep-alive[\r][\n]"
+2021-12-05 13:57:11,259 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2021-12-05 13:57:11,259 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "X-Content-Type-Options: nosniff[\r][\n]"
+2021-12-05 13:57:11,260 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Content-Type: application/json[\r][\n]"
+2021-12-05 13:57:11,260 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Content-Length: 1908[\r][\n]"
+2021-12-05 13:57:11,260 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:57:11,260 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 200 OK
+2021-12-05 13:57:11,260 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 200 OK
+2021-12-05 13:57:11,260 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Cache-Control: no-store
+2021-12-05 13:57:11,260 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Set-Cookie: KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly
+2021-12-05 13:57:11,260 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly
+2021-12-05 13:57:11,260 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << X-XSS-Protection: 1; mode=block
+2021-12-05 13:57:11,260 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Pragma: no-cache
+2021-12-05 13:57:11,260 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << X-Frame-Options: SAMEORIGIN
+2021-12-05 13:57:11,260 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Referrer-Policy: no-referrer
+2021-12-05 13:57:11,260 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Date: Sun, 05 Dec 2021 12:57:11 GMT
+2021-12-05 13:57:11,260 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Connection: keep-alive
+2021-12-05 13:57:11,260 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2021-12-05 13:57:11,260 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << X-Content-Type-Options: nosniff
+2021-12-05 13:57:11,260 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Content-Type: application/json
+2021-12-05 13:57:11,260 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Content-Length: 1908
+2021-12-05 13:57:11,261 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:57:11,261 florians-mbp ForkedBooter[50266] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsing response as: application/json
+2021-12-05 13:57:11,261 florians-mbp ForkedBooter[50266] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-12-05 13:57:11,264 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkzMzEsImlhdCI6MTYzODcwOTAzMSwianRpIjoiOWJmN2NlOGEtMGQ1ZC00NWVjLTkzZjAtNWZiNmI5ZjgwOTFmIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiZWI0MTIzYTMtYjcyMi00Nzk4LTlhZjUtODk1N2Y4MjM2NTdhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6IjVlYzBlMGQyLTQ2YWYtNDUzYS04YTg1LThiZmNmNTkxNGViYiIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidXNlciJdfSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiNWVjMGUwZDItNDZhZi00NTNhLThhODUtOGJmY2Y1OTE0ZWJiIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhbGljZSJ9.E6vbGgMDIH3vViyK5zggb6NGe1wMOOc9G08ocqx4OLDaifmioq-DAFelECOyPzn_1ppdWJhY1QUtmZ1owAwS-9Z54tP0l-KkE201q1GM3C_bRRuVadK_sH_H9aOsZX_eSq8jPs6ASHLjHa5VquHnr6nwUi1aXoTqrpdr10gOs7LTL9TnK8cRR0IUsXfn0r6qIl7bxr0xv2E9fGp8U5n-9OJA2ndbfDHOJwlotZZFh26FophOWgF9L5t3-Bw1mv8XTh5tI7pDoLlSwGuUKum4LqRgWm-jjERBGlfrmJIBjLO1tdQ_8_oT_MfBNuO-w6-WGqs_Vc4v5pJj7jiXkm_frA","expires_in":300,"refresh_expires_in":1800,"refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NmFmZDAwZS04NWNmLTRkMzUtYjE4ZS0wNjFkMzgxM2Q4YjIifQ.eyJleHAiOjE2Mzg3MTA4MzEsImlhdCI6MTYzODcwOTAzMSwianRpIjoiYWNhZTc1MjItZmVmNy00N2Y5LWEwOTUtNmMwYmFhMDZmY2UyIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiZWI0MTIzYTMtYjcyMi00Nzk4LTlhZjUtODk1N2Y4MjM2NTdhIiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImJhY2tlbmQtc2VydmljZSIsInNlc3Npb25fc3RhdGUiOiI1ZWMwZTBkMi00NmFmLTQ1M2EtOGE4NS04YmZjZjU5MTRlYmIiLCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiI1ZWMwZTBkMi00NmFmLTQ1M2EtOGE4NS04YmZjZjU5MTRlYmIifQ.5hGRtOgHkcwgVnTRDbuDmncS-5EkiFEi0Ekf1t3ec4s","token_type":"Bearer","not-before-policy":0,"session_state":"5ec0e0d2-46af-453a-8a85-8bfcf5914ebb","scope":"email profile"}"
+2021-12-05 13:57:11,265 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@433d93e7
+2021-12-05 13:57:11,265 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Connection can be kept alive indefinitely
+2021-12-05 13:57:11,276 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:8081
+2021-12-05 13:57:11,277 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:8081
+2021-12-05 13:57:11,277 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:57:11,277 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:57:11,277 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:57:11,277 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:57:11,277 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: GET /api/admin HTTP/1.1
+2021-12-05 13:57:11,278 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "GET /api/admin HTTP/1.1[\r][\n]"
+2021-12-05 13:57:11,278 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkzMzEsImlhdCI6MTYzODcwOTAzMSwianRpIjoiOWJmN2NlOGEtMGQ1ZC00NWVjLTkzZjAtNWZiNmI5ZjgwOTFmIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiZWI0MTIzYTMtYjcyMi00Nzk4LTlhZjUtODk1N2Y4MjM2NTdhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6IjVlYzBlMGQyLTQ2YWYtNDUzYS04YTg1LThiZmNmNTkxNGViYiIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidXNlciJdfSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiNWVjMGUwZDItNDZhZi00NTNhLThhODUtOGJmY2Y1OTE0ZWJiIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhbGljZSJ9.E6vbGgMDIH3vViyK5zggb6NGe1wMOOc9G08ocqx4OLDaifmioq-DAFelECOyPzn_1ppdWJhY1QUtmZ1owAwS-9Z54tP0l-KkE201q1GM3C_bRRuVadK_sH_H9aOsZX_eSq8jPs6ASHLjHa5VquHnr6nwUi1aXoTqrpdr10gOs7LTL9TnK8cRR0IUsXfn0r6qIl7bxr0xv2E9fGp8U5n-9OJA2ndbfDHOJwlotZZFh26FophOWgF9L5t3-Bw1mv8XTh5tI7pDoLlSwGuUKum4LqRgWm-jjERBGlfrmJIBjLO1tdQ_8_oT_MfBNuO-w6-WGqs_Vc4v5pJj7jiXkm_frA[\r][\n]"
+2021-12-05 13:57:11,278 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:57:11,278 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:8081[\r][\n]"
+2021-12-05 13:57:11,278 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:57:11,278 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:57:11,278 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:57:11,278 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:57:11,278 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> GET /api/admin HTTP/1.1
+2021-12-05 13:57:11,279 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkzMzEsImlhdCI6MTYzODcwOTAzMSwianRpIjoiOWJmN2NlOGEtMGQ1ZC00NWVjLTkzZjAtNWZiNmI5ZjgwOTFmIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiZWI0MTIzYTMtYjcyMi00Nzk4LTlhZjUtODk1N2Y4MjM2NTdhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6IjVlYzBlMGQyLTQ2YWYtNDUzYS04YTg1LThiZmNmNTkxNGViYiIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidXNlciJdfSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiNWVjMGUwZDItNDZhZi00NTNhLThhODUtOGJmY2Y1OTE0ZWJiIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhbGljZSJ9.E6vbGgMDIH3vViyK5zggb6NGe1wMOOc9G08ocqx4OLDaifmioq-DAFelECOyPzn_1ppdWJhY1QUtmZ1owAwS-9Z54tP0l-KkE201q1GM3C_bRRuVadK_sH_H9aOsZX_eSq8jPs6ASHLjHa5VquHnr6nwUi1aXoTqrpdr10gOs7LTL9TnK8cRR0IUsXfn0r6qIl7bxr0xv2E9fGp8U5n-9OJA2ndbfDHOJwlotZZFh26FophOWgF9L5t3-Bw1mv8XTh5tI7pDoLlSwGuUKum4LqRgWm-jjERBGlfrmJIBjLO1tdQ_8_oT_MfBNuO-w6-WGqs_Vc4v5pJj7jiXkm_frA
+2021-12-05 13:57:11,279 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:57:11,279 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:8081
+2021-12-05 13:57:11,279 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:57:11,279 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:57:11,279 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:57:11,291 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 403 Forbidden[\r][\n]"
+2021-12-05 13:57:11,291 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "content-length: 0[\r][\n]"
+2021-12-05 13:57:11,291 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:57:11,291 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 403 Forbidden
+2021-12-05 13:57:11,292 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 403 Forbidden
+2021-12-05 13:57:11,292 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << content-length: 0
+2021-12-05 13:57:11,292 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:57:11,313 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:32826
+2021-12-05 13:57:11,314 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:32826
+2021-12-05 13:57:11,315 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:57:11,315 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:57:11,315 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestTargetAuthentication] (main) Target auth state: UNCHALLENGED
+2021-12-05 13:57:11,315 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:57:11,315 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:57:11,315 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:57:11,315 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1[\r][\n]"
+2021-12-05 13:57:11,315 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:57:11,315 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+2021-12-05 13:57:11,316 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Content-Length: 96[\r][\n]"
+2021-12-05 13:57:11,316 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:32826[\r][\n]"
+2021-12-05 13:57:11,316 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:57:11,316 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:57:11,316 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:57:11,316 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:57:11,316 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:57:11,316 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:57:11,316 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+2021-12-05 13:57:11,316 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Content-Length: 96
+2021-12-05 13:57:11,317 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:32826
+2021-12-05 13:57:11,317 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:57:11,317 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:57:11,317 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:57:11,317 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "grant_type=password&username=alice&password=alice&client_id=backend-service&client_secret=secret"
+2021-12-05 13:57:11,462 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-05 13:57:11,462 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Cache-Control: no-store[\r][\n]"
+2021-12-05 13:57:11,462 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Set-Cookie: KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly[\r][\n]"
+2021-12-05 13:57:11,462 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly[\r][\n]"
+2021-12-05 13:57:11,463 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2021-12-05 13:57:11,463 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Pragma: no-cache[\r][\n]"
+2021-12-05 13:57:11,463 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2021-12-05 13:57:11,463 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Referrer-Policy: no-referrer[\r][\n]"
+2021-12-05 13:57:11,463 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Date: Sun, 05 Dec 2021 12:57:11 GMT[\r][\n]"
+2021-12-05 13:57:11,463 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Connection: keep-alive[\r][\n]"
+2021-12-05 13:57:11,463 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2021-12-05 13:57:11,463 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "X-Content-Type-Options: nosniff[\r][\n]"
+2021-12-05 13:57:11,463 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Content-Type: application/json[\r][\n]"
+2021-12-05 13:57:11,463 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Content-Length: 1908[\r][\n]"
+2021-12-05 13:57:11,463 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:57:11,463 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 200 OK
+2021-12-05 13:57:11,463 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 200 OK
+2021-12-05 13:57:11,463 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Cache-Control: no-store
+2021-12-05 13:57:11,463 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Set-Cookie: KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly
+2021-12-05 13:57:11,463 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly
+2021-12-05 13:57:11,464 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << X-XSS-Protection: 1; mode=block
+2021-12-05 13:57:11,464 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Pragma: no-cache
+2021-12-05 13:57:11,464 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << X-Frame-Options: SAMEORIGIN
+2021-12-05 13:57:11,464 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Referrer-Policy: no-referrer
+2021-12-05 13:57:11,464 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Date: Sun, 05 Dec 2021 12:57:11 GMT
+2021-12-05 13:57:11,464 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Connection: keep-alive
+2021-12-05 13:57:11,464 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2021-12-05 13:57:11,464 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << X-Content-Type-Options: nosniff
+2021-12-05 13:57:11,464 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Content-Type: application/json
+2021-12-05 13:57:11,464 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Content-Length: 1908
+2021-12-05 13:57:11,464 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:57:11,465 florians-mbp ForkedBooter[50266] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsing response as: application/json
+2021-12-05 13:57:11,465 florians-mbp ForkedBooter[50266] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-12-05 13:57:11,468 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkzMzEsImlhdCI6MTYzODcwOTAzMSwianRpIjoiZWU2ZmM2NWEtNDcwZS00ZDY2LTk0ZjEtOTNiMDA5NjE0MjI2IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiZWI0MTIzYTMtYjcyMi00Nzk4LTlhZjUtODk1N2Y4MjM2NTdhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6ImZkMDk5ZDJlLWY0MDUtNDBkMS04ZjhiLWFjODc2NzE4NzNlZCIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidXNlciJdfSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiZmQwOTlkMmUtZjQwNS00MGQxLThmOGItYWM4NzY3MTg3M2VkIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhbGljZSJ9.ZpvdnfE9cgPpPHKAR2FNaRjCLLXXrqf5MhOSJeoB8FxKzTUlumNdqgLco5hJ-16aGqjQ07g8kJmna8CL1Xc2jNcgZe4-c-KBt61hUV83ietOLNQe7VglPH8FC13gXKtpy5p45rjor25KV3Y8DXDBcrczX_7KpcYElMVZ6r3PO4xHdKH2ib9p2GfgBz6kfG0MbPAyfzYSyqd3vVL5RqNOsPQzNv8_Ubfm3t2jRQL_frr3-Vuxk2QQBxOE9QCoHA9FoNllAEDio2rHODj7ayXTo50lnijX0BcmoKRLtGh4qYOL9hZ27Z7rJkWX7gasb_jzXn2tr4QNqQvzNGqstDxsAQ","expires_in":300,"refresh_expires_in":1800,"refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NmFmZDAwZS04NWNmLTRkMzUtYjE4ZS0wNjFkMzgxM2Q4YjIifQ.eyJleHAiOjE2Mzg3MTA4MzEsImlhdCI6MTYzODcwOTAzMSwianRpIjoiOWU0NjkwYjUtN2M0MC00ZDAzLTllMDEtMjMxYmU5ZTVmYmY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiZWI0MTIzYTMtYjcyMi00Nzk4LTlhZjUtODk1N2Y4MjM2NTdhIiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImJhY2tlbmQtc2VydmljZSIsInNlc3Npb25fc3RhdGUiOiJmZDA5OWQyZS1mNDA1LTQwZDEtOGY4Yi1hYzg3NjcxODczZWQiLCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiJmZDA5OWQyZS1mNDA1LTQwZDEtOGY4Yi1hYzg3NjcxODczZWQifQ.knh1gldf-cttc4TlYdnGlkASNfYPM04LW5cNhdhK73o","token_type":"Bearer","not-before-policy":0,"session_state":"fd099d2e-f405-40d1-8f8b-ac87671873ed","scope":"email profile"}"
+2021-12-05 13:57:11,468 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@46a388cc
+2021-12-05 13:57:11,468 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Connection can be kept alive indefinitely
+2021-12-05 13:57:11,485 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:8081
+2021-12-05 13:57:11,485 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:8081
+2021-12-05 13:57:11,486 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:57:11,486 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:57:11,486 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:57:11,486 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:57:11,486 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: GET /api/users/me HTTP/1.1
+2021-12-05 13:57:11,486 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "GET /api/users/me HTTP/1.1[\r][\n]"
+2021-12-05 13:57:11,487 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkzMzEsImlhdCI6MTYzODcwOTAzMSwianRpIjoiZWU2ZmM2NWEtNDcwZS00ZDY2LTk0ZjEtOTNiMDA5NjE0MjI2IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiZWI0MTIzYTMtYjcyMi00Nzk4LTlhZjUtODk1N2Y4MjM2NTdhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6ImZkMDk5ZDJlLWY0MDUtNDBkMS04ZjhiLWFjODc2NzE4NzNlZCIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidXNlciJdfSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiZmQwOTlkMmUtZjQwNS00MGQxLThmOGItYWM4NzY3MTg3M2VkIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhbGljZSJ9.ZpvdnfE9cgPpPHKAR2FNaRjCLLXXrqf5MhOSJeoB8FxKzTUlumNdqgLco5hJ-16aGqjQ07g8kJmna8CL1Xc2jNcgZe4-c-KBt61hUV83ietOLNQe7VglPH8FC13gXKtpy5p45rjor25KV3Y8DXDBcrczX_7KpcYElMVZ6r3PO4xHdKH2ib9p2GfgBz6kfG0MbPAyfzYSyqd3vVL5RqNOsPQzNv8_Ubfm3t2jRQL_frr3-Vuxk2QQBxOE9QCoHA9FoNllAEDio2rHODj7ayXTo50lnijX0BcmoKRLtGh4qYOL9hZ27Z7rJkWX7gasb_jzXn2tr4QNqQvzNGqstDxsAQ[\r][\n]"
+2021-12-05 13:57:11,487 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:57:11,487 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:8081[\r][\n]"
+2021-12-05 13:57:11,487 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:57:11,487 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:57:11,487 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:57:11,487 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:57:11,487 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> GET /api/users/me HTTP/1.1
+2021-12-05 13:57:11,487 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkzMzEsImlhdCI6MTYzODcwOTAzMSwianRpIjoiZWU2ZmM2NWEtNDcwZS00ZDY2LTk0ZjEtOTNiMDA5NjE0MjI2IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiZWI0MTIzYTMtYjcyMi00Nzk4LTlhZjUtODk1N2Y4MjM2NTdhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6ImZkMDk5ZDJlLWY0MDUtNDBkMS04ZjhiLWFjODc2NzE4NzNlZCIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidXNlciJdfSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiZmQwOTlkMmUtZjQwNS00MGQxLThmOGItYWM4NzY3MTg3M2VkIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhbGljZSJ9.ZpvdnfE9cgPpPHKAR2FNaRjCLLXXrqf5MhOSJeoB8FxKzTUlumNdqgLco5hJ-16aGqjQ07g8kJmna8CL1Xc2jNcgZe4-c-KBt61hUV83ietOLNQe7VglPH8FC13gXKtpy5p45rjor25KV3Y8DXDBcrczX_7KpcYElMVZ6r3PO4xHdKH2ib9p2GfgBz6kfG0MbPAyfzYSyqd3vVL5RqNOsPQzNv8_Ubfm3t2jRQL_frr3-Vuxk2QQBxOE9QCoHA9FoNllAEDio2rHODj7ayXTo50lnijX0BcmoKRLtGh4qYOL9hZ27Z7rJkWX7gasb_jzXn2tr4QNqQvzNGqstDxsAQ
+2021-12-05 13:57:11,487 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:57:11,487 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:8081
+2021-12-05 13:57:11,487 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:57:11,487 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:57:11,487 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:57:11,525 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-05 13:57:11,525 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Cache-Control: no-cache[\r][\n]"
+2021-12-05 13:57:11,525 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Content-Type: application/json[\r][\n]"
+2021-12-05 13:57:11,525 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "content-length: 20[\r][\n]"
+2021-12-05 13:57:11,525 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:57:11,525 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 200 OK
+2021-12-05 13:57:11,525 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 200 OK
+2021-12-05 13:57:11,525 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Cache-Control: no-cache
+2021-12-05 13:57:11,525 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Content-Type: application/json
+2021-12-05 13:57:11,525 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << content-length: 20
+2021-12-05 13:57:11,525 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:57:11,526 florians-mbp ForkedBooter[50266] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsing response as: application/json
+2021-12-05 13:57:11,526 florians-mbp ForkedBooter[50266] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-12-05 13:57:11,535 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:32826
+2021-12-05 13:57:11,535 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:32826
+2021-12-05 13:57:11,536 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:57:11,536 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:57:11,536 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestTargetAuthentication] (main) Target auth state: UNCHALLENGED
+2021-12-05 13:57:11,536 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:57:11,536 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:57:11,536 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:57:11,536 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1[\r][\n]"
+2021-12-05 13:57:11,536 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:57:11,536 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+2021-12-05 13:57:11,537 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Content-Length: 96[\r][\n]"
+2021-12-05 13:57:11,537 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:32826[\r][\n]"
+2021-12-05 13:57:11,537 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:57:11,537 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:57:11,537 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:57:11,537 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:57:11,537 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> POST /auth/realms/quarkus/protocol/openid-connect/token HTTP/1.1
+2021-12-05 13:57:11,537 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:57:11,537 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+2021-12-05 13:57:11,537 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Content-Length: 96
+2021-12-05 13:57:11,537 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:32826
+2021-12-05 13:57:11,537 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:57:11,537 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:57:11,537 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:57:11,537 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "grant_type=password&username=admin&password=admin&client_id=backend-service&client_secret=secret"
+2021-12-05 13:57:11,659 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-05 13:57:11,659 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Cache-Control: no-store[\r][\n]"
+2021-12-05 13:57:11,659 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Set-Cookie: KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly[\r][\n]"
+2021-12-05 13:57:11,659 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly[\r][\n]"
+2021-12-05 13:57:11,659 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2021-12-05 13:57:11,659 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Pragma: no-cache[\r][\n]"
+2021-12-05 13:57:11,659 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2021-12-05 13:57:11,659 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Referrer-Policy: no-referrer[\r][\n]"
+2021-12-05 13:57:11,659 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Date: Sun, 05 Dec 2021 12:57:11 GMT[\r][\n]"
+2021-12-05 13:57:11,659 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Connection: keep-alive[\r][\n]"
+2021-12-05 13:57:11,659 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2021-12-05 13:57:11,659 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "X-Content-Type-Options: nosniff[\r][\n]"
+2021-12-05 13:57:11,659 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Content-Type: application/json[\r][\n]"
+2021-12-05 13:57:11,659 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Content-Length: 1919[\r][\n]"
+2021-12-05 13:57:11,659 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:57:11,659 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 200 OK
+2021-12-05 13:57:11,659 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 200 OK
+2021-12-05 13:57:11,659 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Cache-Control: no-store
+2021-12-05 13:57:11,660 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Set-Cookie: KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly
+2021-12-05 13:57:11,660 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/quarkus/; HttpOnly
+2021-12-05 13:57:11,660 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << X-XSS-Protection: 1; mode=block
+2021-12-05 13:57:11,660 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Pragma: no-cache
+2021-12-05 13:57:11,660 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << X-Frame-Options: SAMEORIGIN
+2021-12-05 13:57:11,660 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Referrer-Policy: no-referrer
+2021-12-05 13:57:11,660 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Date: Sun, 05 Dec 2021 12:57:11 GMT
+2021-12-05 13:57:11,660 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Connection: keep-alive
+2021-12-05 13:57:11,660 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2021-12-05 13:57:11,660 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << X-Content-Type-Options: nosniff
+2021-12-05 13:57:11,660 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Content-Type: application/json
+2021-12-05 13:57:11,660 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Content-Length: 1919
+2021-12-05 13:57:11,660 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:57:11,660 florians-mbp ForkedBooter[50266] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsing response as: application/json
+2021-12-05 13:57:11,660 florians-mbp ForkedBooter[50266] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-12-05 13:57:11,662 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkzMzEsImlhdCI6MTYzODcwOTAzMSwianRpIjoiZGVhMjAyYzQtYTVjYy00MzFmLTg0ZDMtMmViMjllNTdjMGFlIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiYWYxMzRjYWItZjQxYy00Njc1LWIxNDEtMjA1Zjk3NWRiNjc5IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6ImMwOTU0ZDdiLTgwNWMtNGY4Ny04MjhhLTE4MDEwZjQzNGY4OSIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiYWRtaW4iLCJ1c2VyIl19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiJjMDk1NGQ3Yi04MDVjLTRmODctODI4YS0xODAxMGY0MzRmODkiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIn0.EbCbLRX0w79XgG4pklQI5m2NtT0g0nSKY60sp1ucBazLki_Hn76nFMmVuITxdiRwGMWtnvUGeAPZ_1Ws3WQ1vWhMuDpPpIXR3wX-0Snxjk4Ee-Lb8LP-5s-LBpn4zOIARYAsxx_yUHpbcKQ309Ewrv61rzKhblz2Bw69RFtf2L_2qlEJ30QQABrMCuZzeru2CFo91xVX0k-m63y7UQIhy7D1apOp4MbRXk0coUOLDno_WiG_BCi2OHOKlcyHNEUh_XFgmJ-sX-zOCQNT_HkUwQwk-5wz6dkX2tGOBwIANKfTv_BizyZF_tmp46IaPwbjr1xwYjD3y1UNHyI8h3VpAw","expires_in":300,"refresh_expires_in":1800,"refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NmFmZDAwZS04NWNmLTRkMzUtYjE4ZS0wNjFkMzgxM2Q4YjIifQ.eyJleHAiOjE2Mzg3MTA4MzEsImlhdCI6MTYzODcwOTAzMSwianRpIjoiY2Q0YTE4NmEtMWIzYy00OTE0LWExNGItNDI0YTViZTY0N2ExIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiYWYxMzRjYWItZjQxYy00Njc1LWIxNDEtMjA1Zjk3NWRiNjc5IiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImJhY2tlbmQtc2VydmljZSIsInNlc3Npb25fc3RhdGUiOiJjMDk1NGQ3Yi04MDVjLTRmODctODI4YS0xODAxMGY0MzRmODkiLCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiJjMDk1NGQ3Yi04MDVjLTRmODctODI4YS0xODAxMGY0MzRmODkifQ.0l3XL0F1B8HyoX_oIeV_fiTMq3Bte4SQmDWmXQ0xpeE","token_type":"Bearer","not-before-policy":0,"session_state":"c0954d7b-805c-4f87-828a-18010f434f89","scope":"email profile"}"
+2021-12-05 13:57:11,662 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7f4f1536
+2021-12-05 13:57:11,662 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Connection can be kept alive indefinitely
+2021-12-05 13:57:11,671 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.BasicClientConnectionManager] (main) Get connection for route {}->http://localhost:8081
+2021-12-05 13:57:11,672 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnectionOperator] (main) Connecting to localhost:8081
+2021-12-05 13:57:11,672 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestAddCookies] (main) CookieSpec selected: ignoreCookies
+2021-12-05 13:57:11,672 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestAuthCache] (main) Auth cache not set in the context
+2021-12-05 13:57:11,672 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.cli.pro.RequestProxyAuthentication] (main) Proxy auth state: UNCHALLENGED
+2021-12-05 13:57:11,672 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Attempt 1 to execute request
+2021-12-05 13:57:11,672 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Sending request: GET /api/users/me HTTP/1.1
+2021-12-05 13:57:11,672 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "GET /api/users/me HTTP/1.1[\r][\n]"
+2021-12-05 13:57:11,673 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkzMzEsImlhdCI6MTYzODcwOTAzMSwianRpIjoiZGVhMjAyYzQtYTVjYy00MzFmLTg0ZDMtMmViMjllNTdjMGFlIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiYWYxMzRjYWItZjQxYy00Njc1LWIxNDEtMjA1Zjk3NWRiNjc5IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6ImMwOTU0ZDdiLTgwNWMtNGY4Ny04MjhhLTE4MDEwZjQzNGY4OSIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiYWRtaW4iLCJ1c2VyIl19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiJjMDk1NGQ3Yi04MDVjLTRmODctODI4YS0xODAxMGY0MzRmODkiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIn0.EbCbLRX0w79XgG4pklQI5m2NtT0g0nSKY60sp1ucBazLki_Hn76nFMmVuITxdiRwGMWtnvUGeAPZ_1Ws3WQ1vWhMuDpPpIXR3wX-0Snxjk4Ee-Lb8LP-5s-LBpn4zOIARYAsxx_yUHpbcKQ309Ewrv61rzKhblz2Bw69RFtf2L_2qlEJ30QQABrMCuZzeru2CFo91xVX0k-m63y7UQIhy7D1apOp4MbRXk0coUOLDno_WiG_BCi2OHOKlcyHNEUh_XFgmJ-sX-zOCQNT_HkUwQwk-5wz6dkX2tGOBwIANKfTv_BizyZF_tmp46IaPwbjr1xwYjD3y1UNHyI8h3VpAw[\r][\n]"
+2021-12-05 13:57:11,673 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Accept: */*[\r][\n]"
+2021-12-05 13:57:11,673 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Host: localhost:8081[\r][\n]"
+2021-12-05 13:57:11,673 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Connection: Keep-Alive[\r][\n]"
+2021-12-05 13:57:11,673 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)[\r][\n]"
+2021-12-05 13:57:11,673 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-05 13:57:11,673 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  >> "[\r][\n]"
+2021-12-05 13:57:11,673 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> GET /api/users/me HTTP/1.1
+2021-12-05 13:57:11,673 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZklBRE5feHhDSm1Wa1d5Ti1QTlhFRXZNVVdzMnI2OEN4dG1oRUROelhVIn0.eyJleHAiOjE2Mzg3MDkzMzEsImlhdCI6MTYzODcwOTAzMSwianRpIjoiZGVhMjAyYzQtYTVjYy00MzFmLTg0ZDMtMmViMjllNTdjMGFlIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMjgyNi9hdXRoL3JlYWxtcy9xdWFya3VzIiwic3ViIjoiYWYxMzRjYWItZjQxYy00Njc1LWIxNDEtMjA1Zjk3NWRiNjc5IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmFja2VuZC1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6ImMwOTU0ZDdiLTgwNWMtNGY4Ny04MjhhLTE4MDEwZjQzNGY4OSIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiYWRtaW4iLCJ1c2VyIl19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiJjMDk1NGQ3Yi04MDVjLTRmODctODI4YS0xODAxMGY0MzRmODkiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIn0.EbCbLRX0w79XgG4pklQI5m2NtT0g0nSKY60sp1ucBazLki_Hn76nFMmVuITxdiRwGMWtnvUGeAPZ_1Ws3WQ1vWhMuDpPpIXR3wX-0Snxjk4Ee-Lb8LP-5s-LBpn4zOIARYAsxx_yUHpbcKQ309Ewrv61rzKhblz2Bw69RFtf2L_2qlEJ30QQABrMCuZzeru2CFo91xVX0k-m63y7UQIhy7D1apOp4MbRXk0coUOLDno_WiG_BCi2OHOKlcyHNEUh_XFgmJ-sX-zOCQNT_HkUwQwk-5wz6dkX2tGOBwIANKfTv_BizyZF_tmp46IaPwbjr1xwYjD3y1UNHyI8h3VpAw
+2021-12-05 13:57:11,673 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Accept: */*
+2021-12-05 13:57:11,673 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Host: localhost:8081
+2021-12-05 13:57:11,673 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Connection: Keep-Alive
+2021-12-05 13:57:11,673 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> User-Agent: Apache-HttpClient/4.5.13 (Java/12.0.2)
+2021-12-05 13:57:11,673 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) >> Accept-Encoding: gzip,deflate
+2021-12-05 13:57:11,682 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-05 13:57:11,682 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Cache-Control: no-cache[\r][\n]"
+2021-12-05 13:57:11,682 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "Content-Type: application/json[\r][\n]"
+2021-12-05 13:57:11,682 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "content-length: 20[\r][\n]"
+2021-12-05 13:57:11,682 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.wire] (main)  << "[\r][\n]"
+2021-12-05 13:57:11,682 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.con.DefaultClientConnection] (main) Receiving response: HTTP/1.1 200 OK
+2021-12-05 13:57:11,682 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << HTTP/1.1 200 OK
+2021-12-05 13:57:11,682 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Cache-Control: no-cache
+2021-12-05 13:57:11,682 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << Content-Type: application/json
+2021-12-05 13:57:11,682 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.headers] (main) << content-length: 20
+2021-12-05 13:57:11,682 florians-mbp ForkedBooter[50266] DEBUG [org.apa.htt.imp.cli.DefaultHttpClient] (main) Connection can be kept alive indefinitely
+2021-12-05 13:57:11,683 florians-mbp ForkedBooter[50266] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsing response as: application/json
+2021-12-05 13:57:11,683 florians-mbp ForkedBooter[50266] DEBUG [io.res.int.RequestSpecificationImpl$RestAssuredHttpBuilder] (main) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
